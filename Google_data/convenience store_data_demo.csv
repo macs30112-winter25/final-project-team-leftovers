@@ -1,0 +1,441 @@
+Name,Business Status,Address,Price Level,Rating,Total Ratings,Types,Latitude,Longitude
+Chicago,Status not available,Chicago,Price information not available,No rating,No ratings,"['locality', 'political']",41.8781136,-87.6297982
+The Polo Inn Bed & Breakfast,OPERATIONAL,"3322 South Morgan Street, Chicago",Price information not available,4.3,21,"['lodging', 'point_of_interest', 'establishment']",41.8336821,-87.6513107
+Potsticker House,OPERATIONAL,"3139 South Halsted Street, Chicago",2,4.2,711,"['meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.83690959999999,-87.6459119
+Bridgeport Coffeehouse,OPERATIONAL,"3101 South Morgan Street, Chicago",1,4.5,920,"['cafe', 'food', 'point_of_interest', 'store', 'establishment']",41.8378707,-87.6508983
+East Lake Management,OPERATIONAL,"3139 South Lituanica Avenue, Chicago",Price information not available,3,4,"['point_of_interest', 'establishment']",41.8374319,-87.6482924
+Walgreens,OPERATIONAL,"3000 South Halsted Street, Chicago",2,2.1,108,"['drugstore', 'convenience_store', 'clothing_store', 'food', 'point_of_interest', 'store', 'health', 'establishment']",41.8395196,-87.6470858
+Subway,OPERATIONAL,"753 West 31st Street A, Chicago",1,3.2,240,"['meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.8377314,-87.6457535
+Maria's Packaged Goods and Community Bar,OPERATIONAL,"960 West 31st Street, Chicago",2,4.6,1476,"['bar', 'art_gallery', 'liquor_store', 'restaurant', 'food', 'point_of_interest', 'store', 'establishment']",41.83811,-87.65106089999999
+Little Caesars Pizza,OPERATIONAL,"3010 South Halsted Street, Chicago",1,3.4,421,"['meal_takeaway', 'meal_delivery', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.83920099999999,-87.64693899999999
+Co-Prosperity,OPERATIONAL,"3219-21 South Morgan Street, Chicago",Price information not available,4.8,186,"['art_gallery', 'point_of_interest', 'establishment']",41.83570829999999,-87.6508278
+Pancho Pistolas Authentic Mexican Restaurant,OPERATIONAL,"700 West 31st Street, Chicago",2,4.3,1743,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8383,-87.64402199999999
+Fabulous Freddies Italian Eatery,OPERATIONAL,"701 West 31st Street, Chicago",1,4.2,2859,"['cafe', 'meal_delivery', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.8378887,-87.6439876
+Gio's Cafe And Deli,OPERATIONAL,"2724 South Lowe Avenue, Chicago",2,4.7,574,"['meal_delivery', 'restaurant', 'food', 'point_of_interest', 'store', 'establishment']",41.8436568,-87.6429284
+Jackalope Coffee & Tea House,OPERATIONAL,"755 West 32nd Street, Chicago",1,4.7,927,"['cafe', 'food', 'point_of_interest', 'store', 'establishment']",41.8360968,-87.6458337
+McGuane (John) Park,OPERATIONAL,"2901 South Poplar Avenue, Chicago",Price information not available,4.5,690,"['tourist_attraction', 'park', 'point_of_interest', 'establishment']",41.8407367,-87.6476489
+Cermak Fresh Market,OPERATIONAL,"3033 South Halsted Street, Chicago",Price information not available,4.3,2196,"['supermarket', 'grocery_or_supermarket', 'food', 'point_of_interest', 'store', 'establishment']",41.8389,-87.645949
+9th District Chicago Police Department,OPERATIONAL,"3120 South Halsted Street, Chicago",Price information not available,No rating,No ratings,"['police', 'point_of_interest', 'establishment']",41.8370593,-87.6466287
+Holden Elementary School,OPERATIONAL,"1104 West 31st Street, Chicago",Price information not available,4.2,19,"['primary_school', 'school', 'point_of_interest', 'establishment']",41.838194,-87.65415469999999
+Robert Healy Elementary School,OPERATIONAL,"3010 South Parnell Avenue, Chicago",Price information not available,4.1,17,"['primary_school', 'school', 'point_of_interest', 'establishment']",41.8393837,-87.6405254
+South Side,Status not available,Chicago,Price information not available,No rating,No ratings,"['neighborhood', 'political']",41.7506491,-87.64405529999999
+Senior Suites of Bridgeport,OPERATIONAL,"2825 South Halsted Street apt,,,610 610, Chicago",Price information not available,4.2,12,"['point_of_interest', 'health', 'establishment']",41.8428459,-87.6461715
+Mark Sheridan Math & Science Academy,OPERATIONAL,"533 West 27th Street, Chicago",Price information not available,4.6,28,"['primary_school', 'point_of_interest', 'school', 'establishment']",41.84424589999999,-87.6412481
+The Polo Inn,OPERATIONAL,"3322 South Morgan Street, Chicago",2,4.7,345,"['cafe', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.8336269,-87.6512511
+GameStop,OPERATIONAL,"753 West 31st Street A, Chicago",2,4.3,343,"['electronics_store', 'store', 'point_of_interest', 'establishment']",41.8377089,-87.64606069999999
+Augustines Spiritual Boutique,OPERATIONAL,"3327 South Halsted Street, Chicago",Price information not available,4.2,153,"['book_store', 'home_goods_store', 'store', 'point_of_interest', 'health', 'school', 'establishment']",41.8335861,-87.64595
+Redbox,OPERATIONAL,"3000 South Halsted Street, Chicago",1,5,2,"['movie_rental', 'store', 'point_of_interest', 'establishment']",41.8393781,-87.6468448
+Defibrillator Performance Art Gallery [DFBRL8R],OPERATIONAL,"3231 South Halsted Street #303, Chicago",Price information not available,4.8,13,"['art_gallery', 'point_of_interest', 'establishment']",41.8356085,-87.6458126
+St. Barbara Catholic Church,OPERATIONAL,"2859 South Throop Street, Chicago",Price information not available,4.6,71,"['church', 'place_of_worship', 'point_of_interest', 'establishment']",41.84254169999999,-87.6527902
+Jinn Express Inc. 芝加哥捷通快递,OPERATIONAL,"2519 South Halsted Street, Chicago",Price information not available,3.5,32,"['point_of_interest', 'establishment']",41.84655490000001,-87.64620939999999
+T-Mobile Authorized Retailer,OPERATIONAL,"3016 South Halsted Street, Chicago",2,3.5,103,"['store', 'point_of_interest', 'establishment']",41.839043,-87.6469094
+bp,OPERATIONAL,"3047 South Halsted Street, Chicago",Price information not available,3.4,31,"['gas_station', 'supermarket', 'grocery_or_supermarket', 'store', 'food', 'point_of_interest', 'establishment']",41.83839,-87.6463
+Blue City Cycles,OPERATIONAL,"3201 South Halsted Street, Chicago",Price information not available,4.8,146,"['bicycle_store', 'store', 'point_of_interest', 'establishment']",41.8360813,-87.6459809
+ATI Physical Therapy,OPERATIONAL,"3008 South Halsted Street Ste 116, Chicago",Price information not available,4.8,124,"['point_of_interest', 'health', 'establishment']",41.8392889,-87.6470078
+"Richard J. Daley Branch, Chicago Public Library",OPERATIONAL,"3400 South Halsted Street, Chicago",Price information not available,4.5,82,"['library', 'point_of_interest', 'establishment']",41.83256919999999,-87.6462758
+Monastery of the Holy Cross,OPERATIONAL,"3111 South Aberdeen Street, Chicago",Price information not available,4.8,69,"['place_of_worship', 'point_of_interest', 'establishment']",41.83780530000001,-87.65314959999999
+Citi,OPERATIONAL,"3430 South Halsted Street, Chicago",Price information not available,3.2,37,"['bank', 'atm', 'finance', 'point_of_interest', 'establishment']",41.831948,-87.64643199999999
+Knights of Columbus,OPERATIONAL,"848 West 27th Street, Chicago",Price information not available,5,2,"['point_of_interest', 'establishment']",41.8446515,-87.64831040000001
+Salon Hydrate,OPERATIONAL,"3129 South Morgan Street, Chicago",Price information not available,4.6,58,"['beauty_salon', 'point_of_interest', 'establishment']",41.8370074,-87.6509995
+Liberty Tax,OPERATIONAL,"702 West 31st Street, Chicago",Price information not available,4.6,115,"['finance', 'point_of_interest', 'establishment']",41.8382687,-87.644104
+Nonna Soluri's Italian Deli,OPERATIONAL,"3142 South Morgan Street, Chicago",2,4.6,263,"['meal_takeaway', 'store', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.8366791,-87.65135889999999
+Chicago,Status not available,Chicago,Price information not available,No rating,No ratings,"['locality', 'political']",41.8781136,-87.6297982
+Ricobene's,OPERATIONAL,"252 West 26th Street, Chicago",1,4.6,7070,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.84574369999999,-87.6339284
+Potsticker House,OPERATIONAL,"3139 South Halsted Street, Chicago",2,4.2,711,"['meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.83690959999999,-87.6459119
+"The PRICE Futures Group, Inc.",OPERATIONAL,Chicago,Price information not available,No rating,No ratings,"['finance', 'point_of_interest', 'establishment']",41.8403965,-87.631957
+Walgreens,OPERATIONAL,"3000 South Halsted Street, Chicago",2,2.1,108,"['drugstore', 'convenience_store', 'clothing_store', 'health', 'store', 'food', 'point_of_interest', 'establishment']",41.8395196,-87.6470858
+Subway,OPERATIONAL,"753 West 31st Street A, Chicago",1,3.2,240,"['meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.8377314,-87.6457535
+New Furama Restaurant,OPERATIONAL,"2828 South Wentworth Avenue, Chicago",2,4.4,514,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.84168729999999,-87.6320186
+Pancho Pistolas Authentic Mexican Restaurant,OPERATIONAL,"700 West 31st Street, Chicago",2,4.3,1743,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8383,-87.64402199999999
+Little Caesars Pizza,OPERATIONAL,"3010 South Halsted Street, Chicago",1,3.4,421,"['meal_takeaway', 'meal_delivery', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.83920099999999,-87.64693899999999
+East Lake Management,OPERATIONAL,"3139 South Lituanica Avenue, Chicago",Price information not available,3,4,"['point_of_interest', 'establishment']",41.8374319,-87.6482924
+Fabulous Freddies Italian Eatery,OPERATIONAL,"701 West 31st Street, Chicago",1,4.2,2859,"['cafe', 'meal_delivery', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.8378887,-87.6439876
+Mark Sheridan Math & Science Academy,OPERATIONAL,"533 West 27th Street, Chicago",Price information not available,4.6,28,"['primary_school', 'school', 'point_of_interest', 'establishment']",41.84424589999999,-87.6412481
+Gio's Cafe And Deli,OPERATIONAL,"2724 South Lowe Avenue, Chicago",2,4.7,574,"['meal_delivery', 'store', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.8436568,-87.6429284
+VanderCook College of Music,OPERATIONAL,"3140 South Federal Street, Chicago",Price information not available,4.7,23,"['university', 'point_of_interest', 'establishment']",41.8367719,-87.6291633
+Robert Healy Elementary School,OPERATIONAL,"3010 South Parnell Avenue, Chicago",Price information not available,4.1,17,"['primary_school', 'school', 'point_of_interest', 'establishment']",41.8393837,-87.6405254
+Community Care Center,OPERATIONAL,"9660 Wicker Avenue, Saint John",Price information not available,3.5,13,"['doctor', 'health', 'point_of_interest', 'establishment']",41.8459378,-87.6339285
+Carbon Live Fire Mexican Grill,OPERATIONAL,"300 West 26th Street, Chicago",2,4.4,1789,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8457425,-87.6347923
+Cermak Fresh Market,OPERATIONAL,"3033 South Halsted Street, Chicago",Price information not available,4.3,2196,"['supermarket', 'grocery_or_supermarket', 'store', 'food', 'point_of_interest', 'establishment']",41.8389,-87.645949
+Jackalope Coffee & Tea House,OPERATIONAL,"755 West 32nd Street, Chicago",1,4.7,927,"['cafe', 'store', 'food', 'point_of_interest', 'establishment']",41.8360968,-87.6458337
+South Side,Status not available,Chicago,Price information not available,No rating,No ratings,"['neighborhood', 'political']",41.7506491,-87.64405529999999
+Chicago,Status not available,Chicago,Price information not available,No rating,No ratings,"['locality', 'political']",41.8781136,-87.6297982
+Chicago South Loop Hotel,OPERATIONAL,"11 West 26th Street, Chicago",Price information not available,3.9,2240,"['parking', 'beauty_salon', 'cafe', 'lodging', 'food', 'point_of_interest', 'establishment']",41.84525290000001,-87.6277863
+Illinois Institute of Technology,OPERATIONAL,"10 West 35th Street, Chicago",Price information not available,4.4,419,"['university', 'point_of_interest', 'establishment']",41.83671,-87.6259602
+S.R. Crown Hall (IIT),OPERATIONAL,"3360 South State Street, Chicago",Price information not available,4.7,297,"['tourist_attraction', 'point_of_interest', 'establishment']",41.8332147,-87.627275
+Illinois College of Optometry,OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,4,39,"['university', 'point_of_interest', 'health', 'establishment']",41.83548989999999,-87.62235989999999
+Illinois Eye Institute B.G.,OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,3.8,218,"['point_of_interest', 'health', 'establishment']",41.83532599999999,-87.6225407
+Schlange Darrell G OD,OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,5,1,"['point_of_interest', 'health', 'establishment']",41.835265,-87.6222789
+"Janice M. Jurkus, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835265,-87.62227899999999
+"Sandra Block, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835265,-87.6222789
+"Patrick Kwong, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835712,-87.62311749999999
+"John L. Baker, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835265,-87.62227899999999
+Allison Christine L OD,OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.8352342,-87.6223665
+"Valerie M. Kattouf, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835265,-87.62227899999999
+"Yi Pang, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835265,-87.62227899999999
+"Neil R. Hodur, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835265,-87.62227899999999
+Mc Cann Andrea L OD,OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835265,-87.62227899999999
+"Stephanie S. Messner, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835265,-87.62227899999999
+"Shmaila S. Tahir, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835265,-87.62227899999999
+Owens Tiffany Ela OD,OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835265,-87.62227899999999
+South Side,Status not available,Chicago,Price information not available,No rating,No ratings,"['neighborhood', 'political']",41.7506491,-87.64405529999999
+Lueken Tiffany L OD,OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835265,-87.62227899999999
+"Ruth A. Trachimowicz, OD",CLOSED_TEMPORARILY,"3241 South Michigan Avenue # 2017, Chicago",Price information not available,4,1,"['point_of_interest', 'health', 'establishment']",41.835712,-87.62311749999999
+"Leonard V. Messner, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835265,-87.62227899999999
+"Wendy J. Haaland Stone, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835265,-87.62227899999999
+Eid Mohamed OD,OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835265,-87.62227899999999
+"Mark K. Colip, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835265,-87.62227899999999
+"Derrald G. Taylor, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835265,-87.62227899999999
+"Kelly A. Frantz, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835265,-87.62227899999999
+"Yiu-Tung D. Lee, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835265,-87.62227899999999
+"Rachael M. Beatty, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835265,-87.62227899999999
+"Brian W. Caden, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,5,1,"['point_of_interest', 'health', 'establishment']",41.835265,-87.62227899999999
+"Michael Chaglasian, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835265,-87.6222789
+"Bruce Teitelbaum, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835265,-87.6222789
+"David D. Castells, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835265,-87.62227899999999
+"Tracy Matchinski, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,5,1,"['point_of_interest', 'health', 'establishment']",41.835265,-87.6222789
+Chen Eric H OD,OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835265,-87.62227899999999
+Opitz Dominick L OD,OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835265,-87.62227899999999
+Misko Melissa A OD,OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835265,-87.62227899999999
+"Mary F. Roberts, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835265,-87.62227899999999
+"Vladimir V. Yevseyenkov, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.835265,-87.62227899999999
+Illinois Eye Institute: Dougherty Jeanne T,OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['health', 'point_of_interest', 'establishment']",41.835265,-87.62227899999999
+"Janice E. Scharre, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['health', 'point_of_interest', 'establishment']",41.835265,-87.62227899999999
+"Anne S. Rozwat, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['health', 'point_of_interest', 'establishment']",41.835265,-87.62227899999999
+"Stephanie Klemencic, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['health', 'point_of_interest', 'establishment']",41.835265,-87.62227899999999
+Rana Nidhi OD,OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['health', 'point_of_interest', 'establishment']",41.835265,-87.62227899999999
+Brandonisio Tina Marie OD,OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['health', 'point_of_interest', 'establishment']",41.835265,-87.62227899999999
+Lopykinski Michael J OD,OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['health', 'point_of_interest', 'establishment']",41.835265,-87.62227899999999
+Fakhoury Nader E OD,OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['health', 'point_of_interest', 'establishment']",41.835265,-87.62227899999999
+Boulais Sarah A OD,OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['health', 'point_of_interest', 'establishment']",41.835265,-87.62227899999999
+"Pamela J. Boyce, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['health', 'point_of_interest', 'establishment']",41.835265,-87.62227899999999
+Lynn Stacie Rene OD,OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['health', 'point_of_interest', 'establishment']",41.835265,-87.62227899999999
+Conley Eric J OD,OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['health', 'point_of_interest', 'establishment']",41.835265,-87.62227899999999
+Scheifele Jill R OD,OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['health', 'point_of_interest', 'establishment']",41.835265,-87.62227899999999
+Newman Tricia Lynn OD,OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['health', 'point_of_interest', 'establishment']",41.835265,-87.62227899999999
+Kruoch Zanna S OD,OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['health', 'point_of_interest', 'establishment']",41.835265,-87.62227899999999
+Sifrit Jason A OD,OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['health', 'point_of_interest', 'establishment']",41.835265,-87.62227899999999
+Chaglasian Elyse Lynn OD,OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['health', 'point_of_interest', 'establishment']",41.835265,-87.62227899999999
+"Snehali Upadhyay, OD",OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,5,1,"['health', 'point_of_interest', 'establishment']",41.835265,-87.6222789
+Bonilla-Warfor Nathan J OD,OPERATIONAL,"3241 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['health', 'point_of_interest', 'establishment']",41.835265,-87.62227899999999
+Napleton Downtown Chicago.,OPERATIONAL,"2720 South Michigan Avenue, Chicago",Price information not available,4.3,1199,"['car_dealer', 'point_of_interest', 'store', 'establishment']",41.843658,-87.623863
+Chicago,Status not available,Chicago,Price information not available,No rating,No ratings,"['locality', 'political']",41.8781136,-87.6297982
+Connie's Pizza,OPERATIONAL,"2373 South Archer Avenue, Chicago",2,4.4,4899,"['meal_delivery', 'bar', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.8492671,-87.6410642
+CRYSTAL B. DESIGNS,CLOSED_TEMPORARILY,"2233 South Throop Street, Chicago",Price information not available,No rating,No ratings,"['clothing_store', 'point_of_interest', 'store', 'establishment']",41.85070679999999,-87.6580587
+Moishe's Moving Systems,OPERATIONAL,"2233 South Throop Street #201, Chicago",Price information not available,3.8,4,"['moving_company', 'point_of_interest', 'establishment']",41.8505638,-87.6580668
+Skylark,OPERATIONAL,"2149 South Halsted Street, Chicago",1,4.6,765,"['bar', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.8527778,-87.64638889999999
+Digital Copier Supercenter,OPERATIONAL,"1100 West Cermak Road # B403, Chicago",Price information not available,3.4,7,"['point_of_interest', 'establishment']",41.8532269,-87.6535002
+Ravenswood Special Events,OPERATIONAL,"1100 West Cermak Road, Chicago",Price information not available,4.2,5,"['point_of_interest', 'establishment']",41.8532269,-87.6535002
+PolarKaze Media,OPERATIONAL,"2233 South Throop Street #620, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'establishment']",41.85070679999999,-87.6580587
+Olive Properties,OPERATIONAL,"1100 West Cermak Road Ste 100, Chicago",Price information not available,3,4,"['point_of_interest', 'establishment']",41.85266089999999,-87.653398
+Dvorak (Anton) Park,OPERATIONAL,"1119 West Cullerton Street, Chicago",Price information not available,4.5,384,"['tourist_attraction', 'park', 'point_of_interest', 'establishment']",41.85432170000001,-87.6539063
+Quick Delivery Services Inc,OPERATIONAL,United States,Price information not available,2.6,5,"['point_of_interest', 'establishment']",41.85,-87.64999999999999
+Sietto,OPERATIONAL,"1100 West Cermak Road, Chicago",Price information not available,5,6,"['point_of_interest', 'establishment']",41.85268549999999,-87.65205170000002
+Rocket Productions Chicago,OPERATIONAL,"1100 West Cermak Road Suite 121, Chicago",Price information not available,5,1,"['point_of_interest', 'store', 'establishment']",41.853193,-87.65353859999999
+Footco Orthopedic,OPERATIONAL,Chicago,Price information not available,No rating,No ratings,"['doctor', 'health', 'point_of_interest', 'establishment']",41.85,-87.64999999999999
+C E Distribution Inc,OPERATIONAL,United States,Price information not available,No rating,No ratings,"['point_of_interest', 'establishment']",41.85,-87.64999999999999
+Sofive Soccer Centers Chitown,OPERATIONAL,"2343 South Throop Street, Chicago",Price information not available,4.5,641,"['point_of_interest', 'establishment']",41.8494444,-87.6583333
+"Auction & Event Solutions, Chicago",OPERATIONAL,"29W110 Butterfield Rd Ste 103, Warrenville",Price information not available,5,1,"['point_of_interest', 'establishment']",41.853193,-87.65353859999999
+Mana Contemporary Chicago,OPERATIONAL,"2233 South Throop Street, Chicago",Price information not available,4.5,130,"['art_gallery', 'point_of_interest', 'establishment']",41.85076170000001,-87.6576322
+DESIAR Eyewear Boutique,OPERATIONAL,"2150 South Canalport Avenue, Chicago",Price information not available,No rating,No ratings,"['clothing_store', 'health', 'point_of_interest', 'store', 'establishment']",41.85322979999999,-87.65015249999999
+South Side,Status not available,Chicago,Price information not available,No rating,No ratings,"['neighborhood', 'political']",41.7506491,-87.64405529999999
+Norcon Inc,OPERATIONAL,"2229 South Halsted Street, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'establishment']",41.8517654,-87.646141
+John A. Walsh Elementary School,OPERATIONAL,"2015 South Peoria Street, Chicago",Price information not available,4.9,9,"['primary_school', 'point_of_interest', 'school', 'establishment']",41.85465869999999,-87.6479006
+Christina's Skincare,OPERATIONAL,"2147 South Lumber Street Ste #322, Chicago",Price information not available,5,21,"['beauty_salon', 'spa', 'point_of_interest', 'establishment']",41.8532218,-87.6409887
+Fountainhead Lofts,OPERATIONAL,"1932 South Halsted Street, Chicago",Price information not available,4.2,6,"['art_gallery', 'point_of_interest', 'establishment']",41.855802,-87.64689899999999
+Gio's Cafe And Deli,OPERATIONAL,"2724 South Lowe Avenue, Chicago",2,4.7,574,"['meal_delivery', 'restaurant', 'food', 'store', 'point_of_interest', 'establishment']",41.8436568,-87.6429284
+Lik-Nu-Porcelain of Illnois,OPERATIONAL,Chicago,Price information not available,5,1,"['point_of_interest', 'establishment']",41.85,-87.64999999999999
+Alivio Medical Center,OPERATIONAL,"966 West 21st Street, Chicago",Price information not available,2.6,153,"['hospital', 'health', 'point_of_interest', 'establishment']",41.854149,-87.6510359
+Senior Suites of Bridgeport,OPERATIONAL,"2825 South Halsted Street apt,,,610 610, Chicago",Price information not available,4.2,12,"['health', 'point_of_interest', 'establishment']",41.8428459,-87.6461715
+SEIU Healthcare,OPERATIONAL,"2229 South Halsted Street, Chicago",Price information not available,3.6,92,"['point_of_interest', 'establishment']",41.8517654,-87.646141
+Mark Sheridan Math & Science Academy,OPERATIONAL,"533 West 27th Street, Chicago",Price information not available,4.6,28,"['primary_school', 'point_of_interest', 'school', 'establishment']",41.84424589999999,-87.6412481
+Jinn Express Inc. 芝加哥捷通快递,OPERATIONAL,"2519 South Halsted Street, Chicago",Price information not available,3.5,32,"['point_of_interest', 'establishment']",41.84655490000001,-87.64620939999999
+Scube Marketing,OPERATIONAL,"2150 South Canalport Avenue #2A11, Chicago",Price information not available,4.4,7,"['point_of_interest', 'establishment']",41.85322979999999,-87.65015249999999
+Burrell Beverage,OPERATIONAL,"2150 South Canalport Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'establishment']",41.8532298,-87.6501526
+Chicago Arts District,OPERATIONAL,"1945 South Halsted Street, Chicago",Price information not available,4.5,23,"['art_gallery', 'point_of_interest', 'establishment']",41.8555878,-87.6462758
+"Podmajersky, Inc.",OPERATIONAL,"1945 South Halsted Street, Chicago",Price information not available,3.6,9,"['real_estate_agency', 'general_contractor', 'point_of_interest', 'establishment']",41.8555059,-87.6464354
+Park To Shop Supermarket (Hong Kong Market),OPERATIONAL,"520 West 24th Place, Chicago",Price information not available,4.1,1094,"['supermarket', 'grocery_or_supermarket', 'food', 'store', 'point_of_interest', 'establishment']",41.84856159999999,-87.6409201
+St. Barbara Catholic Church,OPERATIONAL,"2859 South Throop Street, Chicago",Price information not available,4.6,71,"['church', 'place_of_worship', 'point_of_interest', 'establishment']",41.84254169999999,-87.6527902
+"V&V Supremo Foods, Inc.",OPERATIONAL,"2141 South Throop Street, Chicago",Price information not available,4.2,33,"['convenience_store', 'grocery_or_supermarket', 'food', 'store', 'point_of_interest', 'establishment']",41.8528873,-87.6584584
+McGuane (John) Park,OPERATIONAL,"2901 South Poplar Avenue, Chicago",Price information not available,4.5,690,"['tourist_attraction', 'park', 'point_of_interest', 'establishment']",41.8407367,-87.6476489
+Gold Coast Freightways,OPERATIONAL,"2300 South Throop Street # 3, Chicago",Price information not available,1.4,16,"['moving_company', 'point_of_interest', 'establishment']",41.8504549,-87.6590784
+123dj.com,OPERATIONAL,"2201 South Union Avenue, Chicago",Price information not available,4.3,524,"['store', 'point_of_interest', 'establishment']",41.852501,-87.6444564
+Milk Design,OPERATIONAL,"2220 South Halsted Street, Chicago",Price information not available,1.8,5,"['general_contractor', 'point_of_interest', 'establishment']",41.8519683,-87.6469487
+2229 S Halsted LLC,OPERATIONAL,"2229 South Halsted Street, Chicago",Price information not available,4.3,18,"['point_of_interest', 'establishment']",41.8517654,-87.646141
+Emmanuel Presbyterian Church,OPERATIONAL,Chicago,Price information not available,No rating,No ratings,"['church', 'place_of_worship', 'point_of_interest', 'establishment']",41.85642180000001,-87.6567194
+Chicago Inventors Organization,OPERATIONAL,"2150 South Canalport Avenue #2A-9, Chicago",Price information not available,4.3,6,"['point_of_interest', 'establishment']",41.8532955,-87.650458
+"Dr. Rita Melgarejo-Glaab, MD",OPERATIONAL,"966 West 21st Street, Chicago",Price information not available,4.5,2,"['doctor', 'health', 'point_of_interest', 'establishment']",41.85421949999999,-87.65094700000002
+Sirois Evans DO,OPERATIONAL,"966 West 21st Street, Chicago",Price information not available,No rating,No ratings,"['doctor', 'health', 'point_of_interest', 'establishment']",41.854149,-87.6510359
+"Dr. Annie Y. Lai, MD",OPERATIONAL,"966 West 21st Street, Chicago",Price information not available,No rating,No ratings,"['doctor', 'health', 'point_of_interest', 'establishment']",41.85421949999999,-87.65094700000002
+Barragan Lorena MD,OPERATIONAL,"966 West 21st Street, Chicago",Price information not available,No rating,No ratings,"['doctor', 'health', 'point_of_interest', 'establishment']",41.854149,-87.6510359
+"Lissette Zermeno, RN",OPERATIONAL,"966 West 21st Street, Chicago",Price information not available,No rating,No ratings,"['doctor', 'health', 'point_of_interest', 'establishment']",41.85421949999999,-87.65094700000002
+Ward Susan E,OPERATIONAL,"966 West 21st Street, Chicago",Price information not available,No rating,No ratings,"['health', 'point_of_interest', 'establishment']",41.854149,-87.6510359
+"Dr. Wen-Ho Yang, MD",OPERATIONAL,"966 West 21st Street, Chicago",Price information not available,No rating,No ratings,"['doctor', 'health', 'point_of_interest', 'establishment']",41.85421949999999,-87.65094700000002
+U-Haul Moving & Storage of South Loop,OPERATIONAL,"500 West Cermak Road, Chicago",1,4.3,293,"['moving_company', 'storage', 'store', 'point_of_interest', 'establishment']",41.8534689,-87.6409333
+Colorphonic,OPERATIONAL,"2215 South Union Avenue, Chicago",Price information not available,5,1,"['point_of_interest', 'establishment']",41.8521075,-87.64445180000001
+"Meredith M. Sen, CNM",OPERATIONAL,"966 West 21st Street, Chicago",Price information not available,No rating,No ratings,"['doctor', 'health', 'point_of_interest', 'establishment']",41.854149,-87.6510359
+ART METAL DESIGN STUDIO,OPERATIONAL,"2215 South Union Avenue, Chicago",Price information not available,5,2,"['point_of_interest', 'establishment']",41.85209019999999,-87.644288
+"Mary K. Coleman, MSN",OPERATIONAL,"966 West 21st Street, Chicago",Price information not available,No rating,No ratings,"['doctor', 'health', 'point_of_interest', 'establishment']",41.85421949999999,-87.65094700000002
+"Christina H. Ha, CNM",OPERATIONAL,"966 West 21st Street, Chicago",Price information not available,No rating,No ratings,"['doctor', 'health', 'point_of_interest', 'establishment']",41.85421949999999,-87.65094700000002
+Cosas Inc,OPERATIONAL,"2170 South Canalport Avenue, Chicago",Price information not available,No rating,No ratings,"['home_goods_store', 'store', 'point_of_interest', 'establishment']",41.8530886,-87.6503697
+Masters Transportation,OPERATIONAL,"2300 South Throop Street, Chicago",Price information not available,4,4,"['point_of_interest', 'establishment']",41.8504561,-87.6589891
+Chicago,Status not available,Chicago,Price information not available,No rating,No ratings,"['locality', 'political']",41.8781136,-87.6297982
+Chinatown Hotel,OPERATIONAL,"214 West 22nd Place, Chicago",Price information not available,3.1,709,"['lodging', 'point_of_interest', 'establishment']",41.8523641,-87.63259
+Chicago South Loop Hotel,OPERATIONAL,"11 West 26th Street, Chicago",Price information not available,3.9,2240,"['cafe', 'parking', 'beauty_salon', 'lodging', 'food', 'point_of_interest', 'establishment']",41.84525290000001,-87.6277863
+Lao Sze Chuan,OPERATIONAL,"2172 South Archer Avenue, Chicago",2,4,1483,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8533423,-87.63508519999999
+Connie's Pizza,OPERATIONAL,"2373 South Archer Avenue, Chicago",2,4.4,4899,"['meal_delivery', 'bar', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.8492671,-87.6410642
+Triple Crown Restaurant,OPERATIONAL,"2217 South Wentworth Avenue, Chicago",2,4.3,3624,"['meal_delivery', 'meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.852452,-87.631856
+Walgreens,OPERATIONAL,"316 West Cermak Road, Chicago",2,2.7,159,"['drugstore', 'convenience_store', 'clothing_store', 'food', 'store', 'health', 'point_of_interest', 'establishment']",41.8533845,-87.6357501
+Skylark,OPERATIONAL,"2149 South Halsted Street, Chicago",1,4.6,765,"['bar', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.8527778,-87.64638889999999
+Ricobene's,OPERATIONAL,"252 West 26th Street, Chicago",1,4.6,7070,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.84574369999999,-87.6339284
+Lawrence's Fish & Shrimp,OPERATIONAL,"2120 South Canal Street, Chicago",2,4.3,6306,"['meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.8538807,-87.63886
+Joy Yee,OPERATIONAL,"2139 South China Place, Chicago",2,4.3,4088,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8540611,-87.633873
+Chinatown Square Association,OPERATIONAL,"2133 South China Place, Chicago",Price information not available,4.5,109,"['point_of_interest', 'establishment']",41.85430239999999,-87.63357769999999
+Moon Palace Express,OPERATIONAL,"216 West Cermak Road, Chicago",2,4.2,326,"['meal_delivery', 'meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.8531761,-87.6325439
+MingHin Cuisine,OPERATIONAL,"2168 South Archer Avenue, Chicago",2,4.3,7574,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8532774,-87.63484249999999
+Three Happiness Restaurant,OPERATIONAL,"209 West Cermak Road, Chicago",1,3.9,1307,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8526308,-87.632446
+Christina's Skincare,OPERATIONAL,"2147 South Lumber Street Ste #322, Chicago",Price information not available,5,21,"['beauty_salon', 'spa', 'point_of_interest', 'establishment']",41.8532218,-87.6409887
+Norcon Inc,OPERATIONAL,"2229 South Halsted Street, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'establishment']",41.8517654,-87.646141
+Mercy Medical in Chinatown,OPERATIONAL,"2323 South Wentworth Avenue, Chicago",Price information not available,1.7,12,"['hospital', 'health', 'point_of_interest', 'establishment']",41.85027679999999,-87.63162609999999
+Oceania Tours Inc,OPERATIONAL,"2160 South Archer Avenue #201, Chicago",Price information not available,4.7,6,"['travel_agency', 'point_of_interest', 'establishment']",41.8535143,-87.634493
+South Side,Status not available,Chicago,Price information not available,No rating,No ratings,"['neighborhood', 'political']",41.7506491,-87.64405529999999
+Mark Sheridan Math & Science Academy,OPERATIONAL,"533 West 27th Street, Chicago",Price information not available,4.6,28,"['primary_school', 'school', 'point_of_interest', 'establishment']",41.84424589999999,-87.6412481
+Ping Tom Memorial Park,OPERATIONAL,"1700 South Wentworth Avenue, Chicago",Price information not available,4.6,3675,"['tourist_attraction', 'park', 'point_of_interest', 'establishment']",41.8572974,-87.6343835
+Gio's Cafe And Deli,OPERATIONAL,"2724 South Lowe Avenue, Chicago",2,4.7,574,"['meal_delivery', 'restaurant', 'food', 'point_of_interest', 'store', 'establishment']",41.8436568,-87.6429284
+Chinatown Chamber of Commerce,OPERATIONAL,"2169B South China Place, Chicago",Price information not available,3.1,7,"['point_of_interest', 'establishment']",41.85356669999999,-87.6351633
+Imperial Restaurant,OPERATIONAL,"2100 South Archer Avenue, Chicago",2,4,1230,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8545544,-87.6322747
+The Noodle Vietnamese & Thai Cuisine,OPERATIONAL,"2336 South Wentworth Avenue, Chicago",1,4.1,1047,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8498424,-87.6322588
+Community Care Center,OPERATIONAL,"9660 Wicker Avenue, Saint John",Price information not available,3.5,13,"['doctor', 'point_of_interest', 'health', 'establishment']",41.8459378,-87.6339285
+Bublys Photography llc,OPERATIONAL,"329 West 18th Street #705, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'establishment']",41.8575191,-87.63626889999999
+"Verve, a Credit Union",OPERATIONAL,"2335 South Wentworth Avenue, Chicago",Price information not available,4.9,11,"['atm', 'finance', 'point_of_interest', 'establishment']",41.8500141,-87.63181349999999
+Carbon Live Fire Mexican Grill,OPERATIONAL,"300 West 26th Street, Chicago",2,4.4,1789,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8457425,-87.6347923
+Chi Cafe,OPERATIONAL,"2160 South Archer Avenue, Chicago",1,4.3,1804,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8534879,-87.6345473
+The Law Office of Mark Lewis,OPERATIONAL,"238 West Cermak Road #3B, Chicago",Price information not available,5,1,"['lawyer', 'point_of_interest', 'establishment']",41.8530867,-87.6332965
+Chinese American Museum of Chicago,OPERATIONAL,"238 West 23rd Street, Chicago",Price information not available,4.6,304,"['museum', 'tourist_attraction', 'point_of_interest', 'establishment']",41.85119600000001,-87.633522
+Citi,OPERATIONAL,"2022 South Archer Avenue, Chicago",Price information not available,3.5,53,"['bank', 'atm', 'finance', 'point_of_interest', 'establishment']",41.8546124,-87.6322371
+Canal Street Marina,OPERATIONAL,"2129 South Canal Street, Chicago",Price information not available,4.7,39,"['storage', 'point_of_interest', 'establishment']",41.8538521,-87.6378814
+Tattoo Union,OPERATIONAL,"2238 South Archer Avenue, Chicago",Price information not available,4.6,293,"['point_of_interest', 'establishment']",41.8522762,-87.6363195
+Project: VISION,OPERATIONAL,"236 West 22nd Place #1, Chicago",Price information not available,4.6,22,"['point_of_interest', 'establishment']",41.8523215,-87.63347879999999
+Joy Yee Plus,OPERATIONAL,"2159 South China Place, Chicago",2,4.3,800,"['cafe', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.8537385,-87.6346921
+Haines Elementary School,OPERATIONAL,"247 West 23rd Place, Chicago",Price information not available,2.9,11,"['primary_school', 'school', 'point_of_interest', 'establishment']",41.849803,-87.6338021
+Headquarter Salon,OPERATIONAL,"2145 South China Place, Chicago",Price information not available,3.9,404,"['hair_care', 'point_of_interest', 'establishment']",41.85398299999999,-87.6341738
+Quick Delivery Services Inc,OPERATIONAL,United States,Price information not available,2.6,5,"['point_of_interest', 'establishment']",41.85,-87.64999999999999
+Ahjoomah's Apron Korean Restaurant,OPERATIONAL,"218 West Cermak Road, Chicago",2,4.3,1294,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8530159,-87.6326065
+Footco Orthopedic,OPERATIONAL,Chicago,Price information not available,No rating,No ratings,"['doctor', 'point_of_interest', 'health', 'establishment']",41.85,-87.64999999999999
+C E Distribution Inc,OPERATIONAL,United States,Price information not available,No rating,No ratings,"['point_of_interest', 'establishment']",41.85,-87.64999999999999
+Park To Shop Supermarket (Hong Kong Market),OPERATIONAL,"520 West 24th Place, Chicago",Price information not available,4.1,1094,"['supermarket', 'grocery_or_supermarket', 'food', 'point_of_interest', 'store', 'establishment']",41.84856159999999,-87.6409201
+SEIU Healthcare,OPERATIONAL,"2229 South Halsted Street, Chicago",Price information not available,3.6,92,"['point_of_interest', 'establishment']",41.8517654,-87.646141
+New Furama Restaurant,OPERATIONAL,"2828 South Wentworth Avenue, Chicago",2,4.4,514,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.84168729999999,-87.6320186
+Jinn Express Inc. 芝加哥捷通快递,OPERATIONAL,"2519 South Halsted Street, Chicago",Price information not available,3.5,32,"['point_of_interest', 'establishment']",41.84655490000001,-87.64620939999999
+U-Haul Moving & Storage of South Loop,OPERATIONAL,"500 West Cermak Road, Chicago",1,4.3,293,"['moving_company', 'storage', 'point_of_interest', 'store', 'establishment']",41.8534689,-87.6409333
+Tony T Shu & Associates,OPERATIONAL,"2148 South China Place Suite 2F, Chicago",Price information not available,No rating,No ratings,"['lawyer', 'point_of_interest', 'establishment']",41.85438750000001,-87.6347318
+Merchant Enterprises Inc,OPERATIONAL,"2230 South Wentworth Avenue, Chicago",Price information not available,4.5,2,"['atm', 'finance', 'point_of_interest', 'establishment']",41.851952,-87.63222499999999
+St. Jerome Catholic School,OPERATIONAL,"2801 South Princeton Avenue, Chicago",Price information not available,3.6,7,"['school', 'point_of_interest', 'establishment']",41.8424243,-87.6338538
+Extra Space Storage,OPERATIONAL,"2361 South State Street, Chicago",Price information not available,4.7,482,"['moving_company', 'storage', 'point_of_interest', 'store', 'establishment']",41.8495772,-87.6266512
+National Teacher's Academy,OPERATIONAL,"55 West Cermak Road, Chicago",Price information not available,4.3,48,"['primary_school', 'university', 'secondary_school', 'school', 'point_of_interest', 'establishment']",41.8525034,-87.6280809
+123dj.com,OPERATIONAL,"2201 South Union Avenue, Chicago",Price information not available,4.3,524,"['point_of_interest', 'store', 'establishment']",41.852501,-87.6444564
+Golden Dragon Fortune Cookies,OPERATIONAL,"2323 South Archer Avenue, Chicago",Price information not available,4.3,21,"['bakery', 'food', 'point_of_interest', 'store', 'establishment']",41.85027669999999,-87.6393899
+Wentworth Dental Clinic,OPERATIONAL,"2323 South Wentworth Avenue # 202, Chicago",Price information not available,4,50,"['dentist', 'doctor', 'point_of_interest', 'health', 'establishment']",41.850257,-87.631676
+2229 S Halsted LLC,OPERATIONAL,"2229 South Halsted Street, Chicago",Price information not available,4.3,18,"['point_of_interest', 'establishment']",41.8517654,-87.646141
+Milk Design,OPERATIONAL,"2220 South Halsted Street, Chicago",Price information not available,1.8,5,"['general_contractor', 'point_of_interest', 'establishment']",41.8519683,-87.6469487
+Colorphonic,OPERATIONAL,"2215 South Union Avenue, Chicago",Price information not available,5,1,"['point_of_interest', 'establishment']",41.8521075,-87.64445180000001
+Chicago,Status not available,Chicago,Price information not available,No rating,No ratings,"['locality', 'political']",41.8781136,-87.6297982
+Chicago South Loop Hotel,OPERATIONAL,"11 West 26th Street, Chicago",Price information not available,3.9,2240,"['cafe', 'parking', 'beauty_salon', 'lodging', 'food', 'point_of_interest', 'establishment']",41.84525290000001,-87.6277863
+Chinatown Hotel,OPERATIONAL,"214 West 22nd Place, Chicago",Price information not available,3.1,709,"['lodging', 'point_of_interest', 'establishment']",41.8523641,-87.63259
+Hyatt Regency McCormick Place Chicago,OPERATIONAL,"2233 South Doctor Martin Luther King Junior Drive, Chicago",Price information not available,4.4,6412,"['lodging', 'point_of_interest', 'establishment']",41.85213950000001,-87.61778939999999
+The Wheeler Mansion,OPERATIONAL,"2020 South Calumet Avenue, Chicago",Price information not available,4.2,117,"['lodging', 'point_of_interest', 'establishment']",41.8549017,-87.61938099999999
+Reggies Chicago,OPERATIONAL,"2105 South State Street, Chicago",1,4.5,4434,"['bar', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.853918,-87.6268523
+McCormick Place,OPERATIONAL,"2301 South Doctor Martin Luther King Junior Drive, Chicago",Price information not available,4.5,13681,"['point_of_interest', 'establishment']",41.8527221,-87.6158294
+SilverIP Communications,OPERATIONAL,"2241 South Wabash Avenue, Chicago",Price information not available,4.9,328,"['point_of_interest', 'establishment']",41.8516494,-87.62504140000001
+Triple Crown Restaurant,OPERATIONAL,"2217 South Wentworth Avenue, Chicago",2,4.3,3624,"['meal_delivery', 'meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.852452,-87.631856
+Lao Sze Chuan,OPERATIONAL,"2172 South Archer Avenue, Chicago",2,4,1483,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8533423,-87.63508519999999
+White Castle,OPERATIONAL,"2140 South Wabash Avenue, Chicago",1,3.7,2473,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8531335,-87.6259912
+Cafe Bionda,OPERATIONAL,"1924 South State Street, Chicago",2,4.5,801,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.85578230000001,-87.6275689
+Ricobene's,OPERATIONAL,"252 West 26th Street, Chicago",1,4.6,7070,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.84574369999999,-87.6339284
+Napleton Downtown Chicago.,OPERATIONAL,"2720 South Michigan Avenue, Chicago",Price information not available,4.3,1199,"['car_dealer', 'store', 'point_of_interest', 'establishment']",41.843658,-87.623863
+South Loop Physicians Group at UI Health,OPERATIONAL,"2600 South Michigan Avenue suite 100, Chicago",Price information not available,2.3,6,"['health', 'point_of_interest', 'establishment']",41.845375,-87.6241989
+"Sami Atassi, MD",OPERATIONAL,"2600 South Michigan Avenue #308, Chicago",Price information not available,4.2,6,"['doctor', 'health', 'point_of_interest', 'establishment']",41.8454489,-87.62389549999999
+Dr. Cordia Clark-White,OPERATIONAL,"2600 South Michigan Avenue, Chicago",Price information not available,5,7,"['doctor', 'health', 'point_of_interest', 'establishment']",41.8454017,-87.62399839999999
+McCormick Square,OPERATIONAL,"301 East Cermak Road, Chicago",Price information not available,4.6,155,"['point_of_interest', 'establishment']",41.85126349999999,-87.6184672
+Joy Yee,OPERATIONAL,"2139 South China Place, Chicago",2,4.3,4088,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8540611,-87.633873
+South Side,Status not available,Chicago,Price information not available,No rating,No ratings,"['neighborhood', 'political']",41.7506491,-87.64405529999999
+McCormick Place rentals by Cloud9,OPERATIONAL,"2036 South Michigan Avenue, Chicago",Price information not available,5,1,"['lodging', 'point_of_interest', 'establishment']",41.85467999999999,-87.6243447
+"Naveed Muhammad, MD",OPERATIONAL,"2850 South Wabash Avenue, Chicago",Price information not available,4.2,5,"['doctor', 'point_of_interest', 'health', 'establishment']",41.8424605,-87.62564789999999
+Equinix Data Center,OPERATIONAL,"350 East Cermak Road, Chicago",Price information not available,4.2,55,"['point_of_interest', 'establishment']",41.8536495,-87.6183422
+Chinatown Square Association,OPERATIONAL,"2133 South China Place, Chicago",Price information not available,4.5,109,"['point_of_interest', 'establishment']",41.85430239999999,-87.63357769999999
+Long Grove House,OPERATIONAL,"2001 South Michigan Avenue #1, Chicago",Price information not available,3.6,68,"['lodging', 'point_of_interest', 'establishment']",41.85514349999999,-87.6233918
+Napleton Downtown Hyundai,OPERATIONAL,"2700 South Michigan Avenue, Chicago",Price information not available,4.3,1094,"['car_repair', 'car_dealer', 'store', 'point_of_interest', 'establishment']",41.8442199,-87.6240557
+Angeles Jennifer MD,OPERATIONAL,"2525 South Michigan Avenue #2, Chicago",Price information not available,No rating,No ratings,"['doctor', 'point_of_interest', 'health', 'establishment']",41.8467822,-87.6213375
+Mercy Hospital & Medical Center: Westin Craig D MD,OPERATIONAL,"2525 South Michigan Avenue #2, Chicago",Price information not available,5,1,"['doctor', 'point_of_interest', 'health', 'establishment']",41.8466571,-87.6213228
+Crystal-Eyez Makeup & Beauty Lounge,OPERATIONAL,"1933 South Archer Avenue, Chicago",Price information not available,4.5,113,"['beauty_salon', 'point_of_interest', 'establishment']",41.8558235,-87.62819669999999
+"Richard M. McCoy, DPM",OPERATIONAL,"2525 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['doctor', 'point_of_interest', 'health', 'establishment']",41.8464609,-87.62188689999999
+Gast Thomas MD,OPERATIONAL,"2525 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['doctor', 'point_of_interest', 'health', 'establishment']",41.8463891,-87.62182949999999
+Moon Palace Express,OPERATIONAL,"216 West Cermak Road, Chicago",2,4.2,326,"['meal_delivery', 'meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.8531761,-87.6325439
+Walgreens,OPERATIONAL,"316 West Cermak Road, Chicago",2,2.7,159,"['drugstore', 'convenience_store', 'clothing_store', 'store', 'food', 'point_of_interest', 'health', 'establishment']",41.8533845,-87.6357501
+Stratford South Commons Condo,OPERATIONAL,"2605 South Indiana Avenue, Chicago",Price information not available,4.1,17,"['point_of_interest', 'establishment']",41.8453795,-87.6216717
+"Dr. Debra D. Baines, MD",OPERATIONAL,"2525 South Michigan Avenue #2, Chicago",Price information not available,4.5,2,"['doctor', 'point_of_interest', 'health', 'establishment']",41.8467822,-87.6213375
+Lopez Osvaldo I MD,OPERATIONAL,"2525 South Michigan Avenue Ste 8, Chicago",Price information not available,No rating,No ratings,"['doctor', 'point_of_interest', 'health', 'establishment']",41.8466571,-87.6213228
+"Robert A Weiss, MD",OPERATIONAL,"2525 South Michigan Avenue Ste 8, Chicago",Price information not available,No rating,No ratings,"['doctor', 'point_of_interest', 'health', 'establishment']",41.8467816,-87.62133639999999
+"Judy G. Seals, NP",OPERATIONAL,"2525 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'health', 'establishment']",41.84669739999999,-87.62138519999999
+Three Happiness Restaurant,OPERATIONAL,"209 West Cermak Road, Chicago",1,3.9,1307,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8526308,-87.632446
+Abdulhamid M. Kanji,OPERATIONAL,"2525 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['doctor', 'point_of_interest', 'health', 'establishment']",41.8463272,-87.6216852
+"Dr. Rediet Kokebie, MD",OPERATIONAL,"2525 South Michigan Avenue, Chicago",Price information not available,4.2,10,"['doctor', 'health', 'point_of_interest', 'establishment']",41.84669739999999,-87.62138519999999
+Nicole Sumida LCSW,OPERATIONAL,"2525 Michigan Avenue # B390, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'establishment']",41.8467822,-87.6213375
+Jeffrey Kramer MD,OPERATIONAL,"2525 South Michigan Avenue, Chicago",Price information not available,2.7,7,"['doctor', 'health', 'point_of_interest', 'establishment']",41.8468397,-87.6227598
+Harris Michael MD,OPERATIONAL,"2525 South Michigan Avenue #2, Chicago",Price information not available,5,2,"['doctor', 'health', 'point_of_interest', 'establishment']",41.8467822,-87.6213375
+Young Women's Leadership charter school of chicago,OPERATIONAL,"2641 South Calumet Avenue, Chicago",Price information not available,2.8,13,"['school', 'point_of_interest', 'establishment']",41.8444748,-87.618515
+Mercy Medical in Chinatown,OPERATIONAL,"2323 South Wentworth Avenue, Chicago",Price information not available,1.7,12,"['hospital', 'health', 'point_of_interest', 'establishment']",41.85027679999999,-87.63162609999999
+New! Spacious 3BR Apartment near McCormick Place,OPERATIONAL,"1935 South Wabash Avenue, Chicago",Price information not available,No rating,No ratings,"['lodging', 'point_of_interest', 'establishment']",41.855584,-87.625262
+University of Chicago: Teji Jagjit S MD,OPERATIONAL,"2525 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['doctor', 'health', 'point_of_interest', 'establishment']",41.8466571,-87.6213228
+Mercy Hospital & Medical Center: Singh Ranjan MD,OPERATIONAL,"2525 South Michigan Avenue #2, Chicago",Price information not available,No rating,No ratings,"['doctor', 'health', 'point_of_interest', 'establishment']",41.8467822,-87.6213375
+Go Claudine C MD,OPERATIONAL,"2525 South Michigan Avenue #2, Chicago",Price information not available,No rating,No ratings,"['doctor', 'health', 'point_of_interest', 'establishment']",41.8467822,-87.6213375
+"Dr. Karen M. Daugherty, MD",OPERATIONAL,"2525 South Michigan Avenue #2, Chicago",Price information not available,No rating,No ratings,"['doctor', 'health', 'point_of_interest', 'establishment']",41.8467822,-87.6213375
+"Dr. Jack S. Wu, MD",OPERATIONAL,"2525 South Michigan Avenue #2, Chicago",Price information not available,1,1,"['doctor', 'health', 'point_of_interest', 'establishment']",41.8467822,-87.6213375
+Johnson Bobby S MD,OPERATIONAL,"2525 South Michigan Avenue #2, Chicago",Price information not available,No rating,No ratings,"['doctor', 'health', 'point_of_interest', 'establishment']",41.8467822,-87.6213375
+"Dr. Carl M. Ferraro, MD",OPERATIONAL,"2525 South Michigan Avenue #2, Chicago",Price information not available,No rating,No ratings,"['doctor', 'health', 'point_of_interest', 'establishment']",41.8467822,-87.6213375
+Grabler Paula MD,OPERATIONAL,"2525 South Michigan Avenue #2, Chicago",Price information not available,No rating,No ratings,"['doctor', 'health', 'point_of_interest', 'establishment']",41.8467822,-87.6213375
+Narrajos Benjamin MD,OPERATIONAL,"2525 South Michigan Avenue #2, Chicago",Price information not available,No rating,No ratings,"['doctor', 'health', 'point_of_interest', 'establishment']",41.8467822,-87.6213375
+"Dr. Richard Vesely, MD",OPERATIONAL,"2525 South Michigan Avenue #2, Chicago",Price information not available,No rating,No ratings,"['doctor', 'health', 'point_of_interest', 'establishment']",41.8467822,-87.6213375
+Savcic Mirela MD,OPERATIONAL,"2525 South Michigan Avenue #2, Chicago",Price information not available,No rating,No ratings,"['doctor', 'health', 'point_of_interest', 'establishment']",41.8467822,-87.6213375
+"Dr. Roueen Rafeyan, MD",OPERATIONAL,"2525 South Michigan Avenue, Chicago",Price information not available,5,1,"['doctor', 'health', 'point_of_interest', 'establishment']",41.8467822,-87.6213375
+"Dr. Helene Connolly, MD",OPERATIONAL,"2525 South Michigan Avenue #2, Chicago",Price information not available,No rating,No ratings,"['doctor', 'health', 'point_of_interest', 'establishment']",41.8467822,-87.6213375
+Chicago,Status not available,Chicago,Price information not available,No rating,No ratings,"['locality', 'political']",41.8781136,-87.6297982
+Simone's,OPERATIONAL,"960 West 18th Street, Chicago",2,4.3,2072,"['bar', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.8582389,-87.65105059999999
+Digital Copier Supercenter,OPERATIONAL,"1100 West Cermak Road # B403, Chicago",Price information not available,3.4,7,"['point_of_interest', 'establishment']",41.8532269,-87.6535002
+Skylark,OPERATIONAL,"2149 South Halsted Street, Chicago",1,4.6,765,"['bar', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.8527778,-87.64638889999999
+Ravenswood Special Events,OPERATIONAL,"1100 West Cermak Road, Chicago",Price information not available,4.2,5,"['point_of_interest', 'establishment']",41.8532269,-87.6535002
+Joy Yee,OPERATIONAL,"1335 South Halsted Street, Chicago",2,4.1,685,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8643741,-87.6465949
+Dvorak (Anton) Park,OPERATIONAL,"1119 West Cullerton Street, Chicago",Price information not available,4.5,384,"['tourist_attraction', 'park', 'point_of_interest', 'establishment']",41.85432170000001,-87.6539063
+Olive Properties,OPERATIONAL,"1100 West Cermak Road Ste 100, Chicago",Price information not available,3,4,"['point_of_interest', 'establishment']",41.85266089999999,-87.653398
+Rocket Productions Chicago,OPERATIONAL,"1100 West Cermak Road Suite 121, Chicago",Price information not available,5,1,"['point_of_interest', 'store', 'establishment']",41.853193,-87.65353859999999
+Sietto,OPERATIONAL,"1100 West Cermak Road, Chicago",Price information not available,5,6,"['point_of_interest', 'establishment']",41.85268549999999,-87.65205170000002
+Honky Tonk BBQ / The Tonk,OPERATIONAL,"1213 West 18th Street, Chicago",2,4.3,1503,"['meal_takeaway', 'bar', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.8578007,-87.65681769999999
+Knee Deep Vintage,OPERATIONAL,"1219 West 18th Street, Chicago",Price information not available,4.4,100,"['clothing_store', 'point_of_interest', 'store', 'establishment']",41.8578381,-87.6572005
+Paul Mitchell The School Chicago,OPERATIONAL,"1225 South Halsted Street, Chicago",Price information not available,4,329,"['hair_care', 'beauty_salon', 'spa', 'health', 'point_of_interest', 'establishment']",41.866304,-87.64664599999999
+"Auction & Event Solutions, Chicago",OPERATIONAL,"29W110 Butterfield Rd Ste 103, Warrenville",Price information not available,5,1,"['point_of_interest', 'establishment']",41.853193,-87.65353859999999
+Punch House,OPERATIONAL,"1227 West 18th Street, Chicago",2,4.5,443,"['bar', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.8577778,-87.6575
+Lalo's on Maxwell,OPERATIONAL,"733 West Maxwell Street, Chicago",2,3.9,1495,"['bar', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.8645674,-87.64644299999999
+Quick Delivery Services Inc,OPERATIONAL,United States,Price information not available,2.6,5,"['point_of_interest', 'establishment']",41.85,-87.64999999999999
+DESIAR Eyewear Boutique,OPERATIONAL,"2150 South Canalport Avenue, Chicago",Price information not available,No rating,No ratings,"['clothing_store', 'health', 'point_of_interest', 'store', 'establishment']",41.85322979999999,-87.65015249999999
+Footco Orthopedic,OPERATIONAL,Chicago,Price information not available,No rating,No ratings,"['doctor', 'health', 'point_of_interest', 'establishment']",41.85,-87.64999999999999
+South Side,Status not available,Chicago,Price information not available,No rating,No ratings,"['neighborhood', 'political']",41.7506491,-87.64405529999999
+C E Distribution Inc,OPERATIONAL,United States,Price information not available,No rating,No ratings,"['point_of_interest', 'establishment']",41.85,-87.64999999999999
+University Village Chicago,OPERATIONAL,"1415 South Campus Parkway, Chicago",Price information not available,4,28,"['real_estate_agency', 'point_of_interest', 'establishment']",41.86292270000001,-87.64762549999999
+Emmanuel Presbyterian Church,OPERATIONAL,Chicago,Price information not available,No rating,No ratings,"['church', 'place_of_worship', 'point_of_interest', 'establishment']",41.85642180000001,-87.6567194
+Sylvan Learning of Chicago,OPERATIONAL,"1609 South Halsted Street, Chicago",Price information not available,4.7,34,"['point_of_interest', 'establishment']",41.8595181,-87.6465506
+Norcon Inc,OPERATIONAL,"2229 South Halsted Street, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'establishment']",41.8517654,-87.646141
+Thomson Reuters,OPERATIONAL,"1524 South Sangamon Street, Chicago",Price information not available,4,1,"['point_of_interest', 'establishment']",41.8607231,-87.65048279999999
+Cold Stone Creamery,OPERATIONAL,"1316 South Halsted Street, Chicago",2,3.9,262,"['bakery', 'restaurant', 'food', 'point_of_interest', 'store', 'establishment']",41.8650584,-87.64707630000001
+UIC Extended Campus,OPERATIONAL,"1333 South Halsted Street #205, Chicago",Price information not available,4.5,2,"['university', 'point_of_interest', 'establishment']",41.8644567,-87.6466858
+Jim's Original,OPERATIONAL,"1250 South Union Avenue, Chicago",1,4.5,8754,"['meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.865692,-87.645223
+Fountainhead Lofts,OPERATIONAL,"1932 South Halsted Street, Chicago",Price information not available,4.2,6,"['art_gallery', 'point_of_interest', 'establishment']",41.855802,-87.64689899999999
+John A. Walsh Elementary School,OPERATIONAL,"2015 South Peoria Street, Chicago",Price information not available,4.9,9,"['primary_school', 'school', 'point_of_interest', 'establishment']",41.85465869999999,-87.6479006
+Thalia Hall,OPERATIONAL,"1807 South Allport Street, Chicago",Price information not available,4.7,3309,"['bar', 'point_of_interest', 'establishment']",41.857717,-87.657459
+Pacific Garden Mission,OPERATIONAL,"1458 South Canal Street, Chicago",Price information not available,3.7,683,"['point_of_interest', 'establishment']",41.86223029999999,-87.63945319999999
+Joseph Solomon & Associates,OPERATIONAL,"1151 West 14th Place #334, Chicago",Price information not available,5,1,"['point_of_interest', 'establishment']",41.8622546,-87.6552229
+Birreria Reyes de Ocotlan,OPERATIONAL,"1322 West 18th Street, Chicago",1,4.2,498,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.85810089999999,-87.65979
+Chocolate For Your Body Spa,OPERATIONAL,"1743 South Halsted Street #1F, Chicago",Price information not available,4.1,310,"['spa', 'beauty_salon', 'point_of_interest', 'establishment']",41.8578081,-87.6463591
+BMO Bank N.A Branches,OPERATIONAL,"1400 West 18th Street, Chicago",Price information not available,3.4,16,"['bank', 'atm', 'finance', 'point_of_interest', 'establishment']",41.8580019,-87.6614682
+Kristoffer's Cafe & Bakery,OPERATIONAL,"1733 South Halsted Street, Chicago",1,4.7,495,"['bakery', 'cafe', 'restaurant', 'food', 'point_of_interest', 'store', 'establishment']",41.8581595,-87.6464511
+"Lozano Branch, Chicago Public Library",OPERATIONAL,"1805 South Loomis Street, Chicago",Price information not available,4.3,84,"['library', 'point_of_interest', 'establishment']",41.8576229,-87.660933
+Alivio Medical Center,OPERATIONAL,"966 West 21st Street, Chicago",Price information not available,2.6,153,"['hospital', 'point_of_interest', 'health', 'establishment']",41.854149,-87.6510359
+Christina's Skincare,OPERATIONAL,"2147 South Lumber Street Ste #322, Chicago",Price information not available,5,21,"['beauty_salon', 'spa', 'point_of_interest', 'establishment']",41.8532218,-87.6409887
+St Procopius Dual Language School,OPERATIONAL,"1625 South Allport Street, Chicago",Price information not available,4.1,9,"['point_of_interest', 'school', 'establishment']",41.85907340000001,-87.6575252
+Juarez Truck Driving School,OPERATIONAL,"1151 West 18th Street, Chicago",Price information not available,4.7,305,"['point_of_interest', 'establishment']",41.8577483,-87.6552248
+Chicago Arts District,OPERATIONAL,"1945 South Halsted Street, Chicago",Price information not available,4.5,23,"['art_gallery', 'point_of_interest', 'establishment']",41.8555878,-87.6462758
+"Podmajersky, Inc.",OPERATIONAL,"1945 South Halsted Street, Chicago",Price information not available,3.6,9,"['real_estate_agency', 'general_contractor', 'point_of_interest', 'establishment']",41.8555059,-87.6464354
+McDonald's,OPERATIONAL,"1664 South Blue Island Avenue, Chicago",1,3.5,2015,"['cafe', 'restaurant', 'food', 'store', 'point_of_interest', 'establishment']",41.8584658,-87.66092929999999
+Chicago Butcher Block,CLOSED_TEMPORARILY,"555 West 16th Street, Chicago",Price information not available,4.8,17,"['furniture_store', 'home_goods_store', 'store', 'point_of_interest', 'establishment']",41.85983340000001,-87.6411706
+Art of Imagination,OPERATIONAL,"1829 South Halsted Street, Chicago",Price information not available,4.9,75,"['florist', 'store', 'general_contractor', 'point_of_interest', 'establishment']",41.857189,-87.6464699
+Scube Marketing,OPERATIONAL,"2150 South Canalport Avenue #2A11, Chicago",Price information not available,4.4,7,"['point_of_interest', 'establishment']",41.85322979999999,-87.65015249999999
+Burrell Beverage,OPERATIONAL,"2150 South Canalport Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'establishment']",41.8532298,-87.6501526
+UIC Physical Education Building,OPERATIONAL,"901 Roosevelt Road, Chicago",Price information not available,4.4,20,"['university', 'point_of_interest', 'establishment']",41.8667631,-87.64941759999999
+SEIU Healthcare,OPERATIONAL,"2229 South Halsted Street, Chicago",Price information not available,3.6,92,"['point_of_interest', 'establishment']",41.8517654,-87.646141
+Great Clips,OPERATIONAL,"1342 South Halsted Street, Chicago",Price information not available,4.1,327,"['beauty_salon', 'hair_care', 'point_of_interest', 'establishment']",41.8643435,-87.6471287
+Carnitas Don Pedro,OPERATIONAL,"1113 West 18th Street, Chicago",2,4.5,1810,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8577275,-87.6538356
+SoLo Eye Care & Eyewear Gallery - University Village,OPERATIONAL,"1306 South Halsted Street, Chicago",Price information not available,4.8,169,"['store', 'health', 'point_of_interest', 'establishment']",41.865302,-87.64707399999999
+Lik-Nu-Porcelain of Illnois,OPERATIONAL,Chicago,Price information not available,5,1,"['point_of_interest', 'establishment']",41.85,-87.64999999999999
+Flames Field,OPERATIONAL,"901 West Roosevelt Road, Chicago",Price information not available,4.6,35,"['stadium', 'point_of_interest', 'establishment']",41.8655016,-87.65033389999999
+Subway,OPERATIONAL,"1406 West 18th Street, Chicago",1,2.5,54,"['meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.85801800000001,-87.6617102
+Ghareeb Nawaz UIC,OPERATIONAL,"807 West Roosevelt Road, Chicago",1,3.9,1543,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8665953,-87.6473115
+"Dr. Samuel N. Grief, MD",OPERATIONAL,"722 West Maxwell Street, Chicago",Price information not available,2.8,5,"['doctor', 'health', 'point_of_interest', 'establishment']",41.86503520000001,-87.6459252
+Chicago,Status not available,Chicago,Price information not available,No rating,No ratings,"['locality', 'political']",41.8781136,-87.6297982
+Chinatown Hotel,OPERATIONAL,"214 West 22nd Place, Chicago",Price information not available,3.1,709,"['lodging', 'point_of_interest', 'establishment']",41.8523641,-87.63259
+Lao Sze Chuan,OPERATIONAL,"2172 South Archer Avenue, Chicago",2,4,1483,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8533423,-87.63508519999999
+The Home Depot,OPERATIONAL,"1300 South Clinton Street, Chicago",1,4.1,2210,"['hardware_store', 'furniture_store', 'point_of_interest', 'home_goods_store', 'store', 'establishment']",41.8657498,-87.6415282
+Triple Crown Restaurant,OPERATIONAL,"2217 South Wentworth Avenue, Chicago",2,4.3,3624,"['meal_delivery', 'meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.852452,-87.631856
+Walgreens,OPERATIONAL,"316 West Cermak Road, Chicago",2,2.7,159,"['drugstore', 'convenience_store', 'clothing_store', 'health', 'food', 'point_of_interest', 'store', 'establishment']",41.8533845,-87.6357501
+Pacific Garden Mission,OPERATIONAL,"1458 South Canal Street, Chicago",Price information not available,3.7,683,"['point_of_interest', 'establishment']",41.86223029999999,-87.63945319999999
+Joy Yee,OPERATIONAL,"2139 South China Place, Chicago",2,4.3,4088,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8540611,-87.633873
+Ping Tom Memorial Park,OPERATIONAL,"1700 South Wentworth Avenue, Chicago",Price information not available,4.6,3675,"['tourist_attraction', 'park', 'point_of_interest', 'establishment']",41.8572974,-87.6343835
+Lawrence's Fish & Shrimp,OPERATIONAL,"2120 South Canal Street, Chicago",2,4.3,6306,"['meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.8538807,-87.63886
+Chinatown Square Association,OPERATIONAL,"2133 South China Place, Chicago",Price information not available,4.5,109,"['point_of_interest', 'establishment']",41.85430239999999,-87.63357769999999
+Skylark,OPERATIONAL,"2149 South Halsted Street, Chicago",1,4.6,765,"['bar', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.8527778,-87.64638889999999
+Bublys Photography llc,OPERATIONAL,"329 West 18th Street #705, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'establishment']",41.8575191,-87.63626889999999
+Cafe Bionda,OPERATIONAL,"1924 South State Street, Chicago",2,4.5,801,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.85578230000001,-87.6275689
+Daystar Academy,OPERATIONAL,"1550 South State Street, Chicago",Price information not available,4.4,10,"['secondary_school', 'primary_school', 'school', 'point_of_interest', 'establishment']",41.860511,-87.6281028
+Daystar Education Association,OPERATIONAL,"1550 South State Street, Chicago",Price information not available,4.5,2,"['point_of_interest', 'establishment']",41.8603126,-87.62866869999999
+Moon Palace Express,OPERATIONAL,"216 West Cermak Road, Chicago",2,4.2,326,"['meal_delivery', 'meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.8531761,-87.6325439
+MingHin Cuisine,OPERATIONAL,"2168 South Archer Avenue, Chicago",2,4.3,7574,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8532774,-87.63484249999999
+Dearborn Tower Condo Association,OPERATIONAL,"1530 South State Street, Chicago",Price information not available,4.5,42,"['point_of_interest', 'establishment']",41.8611229,-87.6275268
+South Side,Status not available,Chicago,Price information not available,No rating,No ratings,"['neighborhood', 'political']",41.7506491,-87.64405529999999
+Chicago,Status not available,Chicago,Price information not available,No rating,No ratings,"['locality', 'political']",41.8781136,-87.6297982
+Chinatown Hotel,OPERATIONAL,"214 West 22nd Place, Chicago",Price information not available,3.1,709,"['lodging', 'point_of_interest', 'establishment']",41.8523641,-87.63259
+Hyatt Regency McCormick Place Chicago,OPERATIONAL,"2233 South Doctor Martin Luther King Junior Drive, Chicago",Price information not available,4.4,6412,"['lodging', 'point_of_interest', 'establishment']",41.85213950000001,-87.61778939999999
+The Wheeler Mansion,OPERATIONAL,"2020 South Calumet Avenue, Chicago",Price information not available,4.2,117,"['lodging', 'point_of_interest', 'establishment']",41.8549017,-87.61938099999999
+Reggies Chicago,OPERATIONAL,"2105 South State Street, Chicago",1,4.5,4434,"['bar', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.853918,-87.6268523
+The Chicago Firehouse Restaurant,OPERATIONAL,"1401 South Michigan Avenue, Chicago",3,4.5,1769,"['bar', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.8639214,-87.62389569999999
+Soldier Field,OPERATIONAL,"1410 Special Olympics Drive, Chicago",Price information not available,4.5,13038,"['stadium', 'point_of_interest', 'establishment']",41.8623132,-87.6166884
+SilverIP Communications,OPERATIONAL,"2241 South Wabash Avenue, Chicago",Price information not available,4.9,328,"['point_of_interest', 'establishment']",41.8516494,-87.62504140000001
+Cafe Bionda,OPERATIONAL,"1924 South State Street, Chicago",2,4.5,801,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.85578230000001,-87.6275689
+Lao Sze Chuan,OPERATIONAL,"2172 South Archer Avenue, Chicago",2,4,1483,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8533423,-87.63508519999999
+Triple Crown Restaurant,OPERATIONAL,"2217 South Wentworth Avenue, Chicago",2,4.3,3624,"['meal_delivery', 'meal_takeaway', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.852452,-87.631856
+White Castle,OPERATIONAL,"2140 South Wabash Avenue, Chicago",1,3.7,2473,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8531335,-87.6259912
+Chicago Waffles,OPERATIONAL,"1400 South Michigan Avenue, Chicago",2,4.2,1801,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8637139,-87.62430560000001
+Dearborn Tower Condo Association,OPERATIONAL,"1530 South State Street, Chicago",Price information not available,4.5,42,"['point_of_interest', 'establishment']",41.8611229,-87.6275268
+ABA Midwest,OPERATIONAL,"1449 South Michigan Avenue, Chicago",Price information not available,3.2,6,"['point_of_interest', 'health', 'establishment']",41.86268449999999,-87.6235877
+Daystar Academy,OPERATIONAL,"1550 South State Street, Chicago",Price information not available,4.4,10,"['secondary_school', 'primary_school', 'point_of_interest', 'school', 'establishment']",41.860511,-87.6281028
+Ping Tom Memorial Park,OPERATIONAL,"1700 South Wentworth Avenue, Chicago",Price information not available,4.6,3675,"['tourist_attraction', 'park', 'point_of_interest', 'establishment']",41.8572974,-87.6343835
+Lakeside Tower Condominium,OPERATIONAL,"1600 South Indiana Avenue, Chicago",Price information not available,4.6,15,"['point_of_interest', 'establishment']",41.8600555,-87.6228252
+Tapas Valencia,OPERATIONAL,"1530 South State Street, Chicago",2,4.5,1393,"['bar', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.8611004,-87.6274644
+South Side,Status not available,Chicago,Price information not available,No rating,No ratings,"['neighborhood', 'political']",41.7506491,-87.64405529999999
+Joy Yee,OPERATIONAL,"2139 South China Place, Chicago",2,4.3,4088,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8540611,-87.633873
+SKY55,OPERATIONAL,"1255 South Michigan Avenue, Chicago",Price information not available,3.2,125,"['real_estate_agency', 'point_of_interest', 'establishment']",41.8661991,-87.62368049999999
+Flo & Santos,OPERATIONAL,"1310 South Wabash Avenue, Chicago",2,4.5,2103,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8653731,-87.6262352
+Daystar Education Association,OPERATIONAL,"1550 South State Street, Chicago",Price information not available,4.5,2,"['point_of_interest', 'establishment']",41.8603126,-87.62866869999999
+Public Storage,OPERATIONAL,"1414 South Wabash Avenue, Chicago",Price information not available,4.8,624,"['storage', 'store', 'point_of_interest', 'establishment']",41.86356869999999,-87.62619289999999
+Chinatown Square Association,OPERATIONAL,"2133 South China Place, Chicago",Price information not available,4.5,109,"['point_of_interest', 'establishment']",41.85430239999999,-87.63357769999999
+Furnished Suites in South Loop Chicago,CLOSED_TEMPORARILY,"E 14th St and, South Michigan Avenue, Chicago",Price information not available,1,2,"['lodging', 'point_of_interest', 'establishment']",41.8640971,-87.6240663
+Active Body Chiropractic,OPERATIONAL,"1600 South Indiana Avenue #2, Chicago",Price information not available,4.9,83,"['health', 'point_of_interest', 'establishment']",41.85994090000001,-87.6228333
+DoGone Fun!,OPERATIONAL,"1717 South State Street, Chicago",Price information not available,4.2,154,"['pet_store', 'store', 'point_of_interest', 'establishment']",41.8586193,-87.6268238
+Perspectives Charter Schools,OPERATIONAL,"1530 South State Street, Chicago",Price information not available,3.5,4,"['school', 'point_of_interest', 'establishment']",41.8608315,-87.6274658
+FOUR SEASONS DRY CLEANING & TAILORING,OPERATIONAL,"1550 South Indiana Avenue #1, Chicago",Price information not available,3.5,49,"['laundry', 'point_of_interest', 'establishment']",41.8606229,-87.6228795
+Rizwan Arayan MD,OPERATIONAL,"1550 South Indiana Avenue Exhibition, Chicago",Price information not available,1,1,"['doctor', 'health', 'point_of_interest', 'establishment']",41.8606092,-87.6228616
+McCormick Place rentals by Cloud9,OPERATIONAL,"2036 South Michigan Avenue, Chicago",Price information not available,5,1,"['lodging', 'point_of_interest', 'establishment']",41.85467999999999,-87.6243447
+Crystal-Eyez Makeup & Beauty Lounge,OPERATIONAL,"1933 South Archer Avenue, Chicago",Price information not available,4.5,113,"['beauty_salon', 'point_of_interest', 'establishment']",41.8558235,-87.62819669999999
+Equinix Data Center,OPERATIONAL,"350 East Cermak Road, Chicago",Price information not available,4.2,55,"['point_of_interest', 'establishment']",41.8536495,-87.6183422
+Long Grove House,OPERATIONAL,"2001 South Michigan Avenue #1, Chicago",Price information not available,3.6,68,"['lodging', 'point_of_interest', 'establishment']",41.85514349999999,-87.6233918
+Chicago Police Department,OPERATIONAL,"1718 South State Street, Chicago",Price information not available,No rating,No ratings,"['police', 'point_of_interest', 'establishment']",41.8584895,-87.62835969999999
+Prairie District Tower Condo,OPERATIONAL,"1717 South Prairie Avenue, Chicago",Price information not available,4.1,19,"['point_of_interest', 'establishment']",41.8584365,-87.6198806
+Coinstar Kiosk - Bitcoin ATM,OPERATIONAL,"1224 South Wabash Avenue Jewel, Chicago",Price information not available,1,1,"['atm', 'finance', 'store', 'point_of_interest', 'establishment']",41.8662066,-87.6262093
+1401 S. State Apartments,OPERATIONAL,"1401 South State Street, Chicago",Price information not available,4.1,124,"['real_estate_agency', 'point_of_interest', 'establishment']",41.8639224,-87.62710709999999
+Bublys Photography llc,OPERATIONAL,"329 West 18th Street #705, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'establishment']",41.8575191,-87.63626889999999
+Nepal House,OPERATIONAL,"1301 South Michigan Avenue, Chicago",2,4.5,1739,"['meal_takeaway', 'grocery_or_supermarket', 'meal_delivery', 'store', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.8656858,-87.6239061
+Moon Palace Express,OPERATIONAL,"216 West Cermak Road, Chicago",2,4.2,326,"['meal_takeaway', 'meal_delivery', 'restaurant', 'food', 'point_of_interest', 'establishment']",41.8531761,-87.6325439
+Linkup Collective,OPERATIONAL,"1503 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'establishment']",41.8619115,-87.62357340000001
+New! Spacious 3BR Apartment near McCormick Place,OPERATIONAL,"1935 South Wabash Avenue, Chicago",Price information not available,No rating,No ratings,"['lodging', 'point_of_interest', 'establishment']",41.855584,-87.625262
+Walgreens,OPERATIONAL,"316 West Cermak Road, Chicago",2,2.7,159,"['drugstore', 'convenience_store', 'clothing_store', 'health', 'store', 'food', 'point_of_interest', 'establishment']",41.8533845,-87.6357501
+Alltown Electric Inc | Local Electrician | Electrician,OPERATIONAL,"1717 South Prairie Avenue, Chicago",Price information not available,4.4,14,"['electrician', 'point_of_interest', 'establishment']",41.858496,-87.61992099999999
+Old St Mary's Catholic Church,OPERATIONAL,"1500 South Michigan Avenue, Chicago",Price information not available,4.7,31,"['church', 'place_of_worship', 'point_of_interest', 'establishment']",41.8611426,-87.6242102
+Telx Chicago Lakeside LLC,OPERATIONAL,"350 East Cermak Road, Chicago",Price information not available,5,1,"['point_of_interest', 'establishment']",41.8541134,-87.61856999999999
+Metropolitan Veterinary Center,OPERATIONAL,"1556 South Michigan Avenue Ste.100, Chicago",Price information not available,4.5,384,"['pharmacy', 'veterinary_care', 'health', 'store', 'point_of_interest', 'establishment']",41.86041790000001,-87.62434119999999
+Tata Communication,OPERATIONAL,"350 East Cermak Road, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'establishment']",41.85416740000001,-87.61853099999999
+Promotional 12 Inc,OPERATIONAL,"1255 South Michigan Avenue #1108, Chicago",Price information not available,5,53,"['point_of_interest', 'establishment']",41.8660621,-87.6235358
+Three Happiness Restaurant,OPERATIONAL,"209 West Cermak Road, Chicago",1,3.9,1307,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8526308,-87.632446
+Fresenius Kidney Care Prairie,OPERATIONAL,"1717 South Wabash Avenue, Chicago",Price information not available,3,4,"['health', 'point_of_interest', 'establishment']",41.8586324,-87.62523379999999
+Imperial Restaurant,OPERATIONAL,"2100 South Archer Avenue, Chicago",2,4,1230,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.8545544,-87.6322747
+Sadies Transportation Services Inc,OPERATIONAL,"2001 South Michigan Avenue, Chicago",Price information not available,3,4,"['point_of_interest', 'establishment']",41.85514149999999,-87.62317449999999
+Chicago Oyster House,OPERATIONAL,"1933 South Indiana Avenue, Chicago",2,4.3,676,"['restaurant', 'food', 'point_of_interest', 'establishment']",41.855733,-87.621991
+B T America,OPERATIONAL,"350 East Cermak Road, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'establishment']",41.8538954,-87.618449
+RGB Hill | Chicago Video Production Company,OPERATIONAL,"1845 South Michigan Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'establishment']",41.85654400000001,-87.623548
+Thomas Campone Photography,OPERATIONAL,"South Indiana Avenue, Chicago",Price information not available,No rating,No ratings,"['point_of_interest', 'establishment']",41.858496,-87.6199209
