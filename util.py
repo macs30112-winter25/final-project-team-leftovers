@@ -1,4 +1,3 @@
-import os
 import numpy as np
 import pandas as pd
 import ast
@@ -93,3 +92,31 @@ def count_amenities_for_house(house_lat, house_lon, place_df, radius_km=1.0):
                                                place_df['Latitude'].values,
                                                place_df['Longitude'].values)
     return np.sum(distances <= radius_km)
+
+def highest_crime_proportion_for_house(house_lat, house_lon, crime_df, radius_km=1.0):
+    """
+    For a given house and crime DataFrame, compute the crime type with the highest proportion
+    of crime incidents within the given radius.
+    
+    Inputs:
+      house_lat (float): Latitude of the house.
+      house_lon (float): Longitude of the house.
+      crime_df (DataFrame): DataFrame for crime information.
+      radius_km (float): Radius in kilometers (default to 1 km).
+      
+    Returns:
+      tuple: (crime_type, proportion) of the most frequent crime type within the radius,
+             or (None, 0) if no crimes are found.
+    """
+    distances = haversine_distance_vectorized(house_lat, house_lon,
+                                               crime_df['latitude'].values,
+                                               crime_df['longitude'].values)
+    crime_nearby = crime_df[distances <= radius_km]
+    if crime_nearby.empty:
+        return (None, 0)
+    crime_counts = crime_nearby.groupby("primary_type").size()
+    total_crimes = crime_counts.sum()
+    crime_proportions = crime_counts / total_crimes
+    max_crime_type = crime_proportions.idxmax()
+    max_proportion = crime_proportions[max_crime_type]
+    return (max_crime_type, max_proportion)
