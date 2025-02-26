@@ -2,8 +2,6 @@ import os
 import pandas as pd
 from util import count_amenities_for_house, filter_types_inplace, highest_crime_proportion_for_house
 
-sample_house_lat = 41.8781
-sample_house_lon = -87.6298
 
 current_directory = os.getcwd()
 
@@ -54,47 +52,32 @@ df_crime['Latitude'] = pd.to_numeric(df_crime['latitude'], errors='coerce')
 df_crime['Longitude'] = pd.to_numeric(df_crime['longitude'], errors='coerce')
 
 
-# --- Sample House Coordinate and Counting ---
-sample_house_lat = 41.8781
-sample_house_lon = -87.6298
-
-restaurant_count = count_amenities_for_house(sample_house_lat, sample_house_lon, df_restaurants, radius_km=1.0)
-store_count = count_amenities_for_house(sample_house_lat, sample_house_lon, df_stores, radius_km=10)
-school_count = count_amenities_for_house(sample_house_lat, sample_house_lon, df_schools, radius_km=1.0)
-crime_count = count_amenities_for_house(sample_house_lat, sample_house_lon, df_crime, radius_km=1.0)
-crime_type, crime_prop = highest_crime_proportion_for_house(sample_house_lat, sample_house_lon, df_crime, radius_km=1.0)
-
-print(f"Number of restaurants within 1 km of sample house ({sample_house_lat}, {sample_house_lon}): {restaurant_count}")
-print(f"Number of convenience/grocery stores within 10 km of sample house ({sample_house_lat}, {sample_house_lon}): {store_count}")
-print(f"Number of schools within 1 km of sample house ({sample_house_lat}, {sample_house_lon}): {school_count}")
-print(f"Crime incidents within 1 km: {crime_count}")
-print(f"Most prevalent crime type within 1 km: {crime_type} with proportion {crime_prop:.2f}")
-
-# --- Process house file when Andrew upload the data ---
-houses_file_path = ''  # Replace with actual houses CSV path when available.
-if os.path.exists(houses_file_path):
-    df_houses = pd.read_csv(houses_file_path)
-    df_houses['num_restaurants_within_1km'] = df_houses.apply(
-        lambda row: count_amenities_for_house(row['latitude'], row['longitude'], df_restaurants, radius_km=1.0),
-        axis=1
-    )
-    df_houses['num_stores_within_1km'] = df_houses.apply(
-        lambda row: count_amenities_for_house(row['latitude'], row['longitude'], df_stores, radius_km=1.0),
-        axis=1
-    )
-    df_houses['num_schools_within_1km'] = df_houses.apply(
-    lambda row: count_amenities_for_house(row['latitude'], row['longitude'], df_schools, radius_km=1.0),
+# --- Process Redfin Data ---
+houses_file_path = os.path.join(current_directory, "redfin_cleaned_v1.csv")
+df_houses = pd.read_csv(houses_file_path)
+df_houses['num_restaurants_within_1km'] = df_houses.apply(
+    lambda row: count_amenities_for_house(row['latitude'], row['longitude'], df_restaurants, radius_km=1.0),
     axis=1
 )
-    df_houses['num_crimes_within_1km'] = df_houses.apply(
-    lambda row: count_amenities_for_house(row['latitude'], row['longitude'], df_crime, radius_km=1.0),
+df_houses['num_stores_within_1km'] = df_houses.apply(
+    lambda row: count_amenities_for_house(row['latitude'], row['longitude'], df_stores, radius_km=1.0),
     axis=1
 )
-    df_houses[['most_prevalent_crime', 'crime_proportion']] = df_houses.apply(
-    lambda row: pd.Series(highest_crime_proportion_for_house(row['latitude'], row['longitude'], df_crime, radius_km=1.0)),
-    axis=1 # the helper function returns a tuple, so need to convert it to series for pandas to allocate into two columns
+df_houses['num_schools_within_1km'] = df_houses.apply(
+lambda row: count_amenities_for_house(row['latitude'], row['longitude'], df_schools, radius_km=1.0),
+axis=1
 )
-    print("Houses DataFrame with counts (first 10 rows):")
-    print(df_houses[['latitude', 'longitude', 'num_restaurants_within_1km', 'num_stores_within_1km', 'num_schools_within_1km']].head(10))
-else:
-    print("Houses file not found. Running single house test only.")
+df_houses['num_crimes_within_1km'] = df_houses.apply(
+lambda row: count_amenities_for_house(row['latitude'], row['longitude'], df_crime, radius_km=1.0),
+axis=1
+)
+df_houses[['most_prevalent_crime', 'crime_proportion']] = df_houses.apply(
+lambda row: pd.Series(highest_crime_proportion_for_house(row['latitude'], row['longitude'], df_crime, radius_km=1.0)),
+axis=1 # the helper function returns a tuple, so need to convert it to series for pandas to allocate into two columns
+)
+print("Houses DataFrame with counts (first 10 rows):")
+print(df_houses[['latitude', 'longitude', 'num_restaurants_within_1km', 'num_stores_within_1km', 'num_schools_within_1km', 'num_crimes_within_1km',
+                    'most_prevalent_crime', 'crime_proportion']].head(10))
+
+output_csv_path = os.path.join(current_directory, "Google_data", "summary_redfin.csv")
+df_houses.to_csv(output_csv_path, index=False)
