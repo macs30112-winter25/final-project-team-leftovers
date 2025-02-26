@@ -243,7 +243,7 @@ def store_property_data(details, db_path):
 
 
 def main():
-    api_key = '6e6fccc00b94c6d57237a9afa3cc64b7'
+    api_key = ''
     
     # Create directories
     os.makedirs("urls", exist_ok=True)
