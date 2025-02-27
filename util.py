@@ -109,8 +109,8 @@ def highest_crime_proportion_for_house(house_lat, house_lon, crime_df, radius_km
              or (None, 0) if no crimes are found.
     """
     distances = haversine_distance_vectorized(house_lat, house_lon,
-                                               crime_df['latitude'].values,
-                                               crime_df['longitude'].values)
+                                               crime_df['Latitude'].values,
+                                               crime_df['Longitude'].values)
     crime_nearby = crime_df[distances <= radius_km]
     if crime_nearby.empty:
         return (None, 0)
