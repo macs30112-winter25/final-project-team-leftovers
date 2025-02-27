@@ -93,30 +93,82 @@ def count_amenities_for_house(house_lat, house_lon, place_df, radius_km=1.0):
                                                place_df['Longitude'].values)
     return np.sum(distances <= radius_km)
 
-def highest_crime_proportion_for_house(house_lat, house_lon, crime_df, radius_km=1.0):
+
+def crime_summary_for_house(house_lat, house_lon, crime_df, radius_km=1.0):
     """
-    For a given house and crime DataFrame, compute the crime type with the highest proportion
-    of crime incidents within the given radius.
+    For a given house coordinate, compute a summary of crime within the specified radius.
     
-    Inputs:
+    The summary includes:
+      - 'violent_crime_count': The number of violent crime
+      - 'nonviolent_crime_count': The number of non-violent crime
+      - 'most_prevalent_crime': The crime type with the highest proportion.
+      - 'crime_proportion': The proportion of incidents that belong to that crime type.
+      
+    Parameters:
       house_lat (float): Latitude of the house.
       house_lon (float): Longitude of the house.
-      crime_df (DataFrame): DataFrame for crime information.
-      radius_km (float): Radius in kilometers (default to 1 km).
+      crime_df (DataFrame): DataFrame containing crime incidents with columns
+                            'Latitude', 'Longitude', and 'Crime Type'.
+      radius_km (float): Search radius in kilometers (default to 1 km).
       
     Returns:
-      tuple: (crime_type, proportion) of the most frequent crime type within the radius,
-             or (None, 0) if no crimes are found.
+      dict: A dictionary with keys 'crime_counts', 'most_prevalent_crime', and 'crime_proportion'.
+            If no crime incidents are found within the radius, returns an empty dictionary for counts,
+            and None and 0 for the other values.
     """
+    # Compute distances from the house to each crime incident.
     distances = haversine_distance_vectorized(house_lat, house_lon,
                                                crime_df['Latitude'].values,
                                                crime_df['Longitude'].values)
+    
+    violent_crime_types = {
+    'ASSAULT', 'BATTERY',
+    'CRIMINAL SEXUAL ASSAULT',
+    'SEX OFFENSE', 'WEAPONS VIOLATION',
+    'ROBBERY', 'HOMICIDE', 'ARSON',
+    'KIDNAPPING', 'STALKING',
+    'OFFENSE INVOLVING CHILDREN',
+    'INTIMIDATION', 'HUMAN TRAFFICKING'
+    }
+    
+    nonviolent_crime_types = {
+    'MOTOR VEHICLE THEFT', 'CRIMINAL DAMAGE',
+    'BURGLARY', 'DECEPTIVE PRACTICE', 'THEFT',
+    'OTHER OFFENSE', 'PUBLIC PEACE VIOLATION',
+    'LIQUOR LAW VIOLATION',
+    'CONCEALED CARRY LICENSE VIOLATION', 'PUBLIC INDECENCY',
+    'OBSCENITY', 'GAMBLING', 'OTHER NARCOTIC VIOLATION',
+    'NON-CRIMINAL', 'CRIMINAL TRESPASS'
+    }
+    
+    # Include incidents within the specified radius.
     crime_nearby = crime_df[distances <= radius_km]
+    
+    # Initialize the summary dictionary.
+    summary = {}
     if crime_nearby.empty:
-        return (None, 0)
+        summary["most_prevalent_crime"] = None
+        summary["crime_proportion"] = 0
+        summary["violent_crime_count"] = 0
+        summary["nonviolent_crime_count"] = 0
+        return summary
+
+    # Group by crime type and count the number of incidents per type.
     crime_counts = crime_nearby.groupby("primary_type").size()
+
+    # Compute violent and non-violent totals.
+    violent_total = sum(crime_counts.get(ct, 0) for ct in violent_crime_types)
+    nonviolent_total = sum(crime_counts.get(ct, 0) for ct in nonviolent_crime_types)
+    summary["violent_crime_count"] = violent_total
+    summary["nonviolent_crime_count"] = nonviolent_total
+
+    # Calculate total crimes and proportions.
     total_crimes = crime_counts.sum()
     crime_proportions = crime_counts / total_crimes
+    
     max_crime_type = crime_proportions.idxmax()
     max_proportion = crime_proportions[max_crime_type]
-    return (max_crime_type, max_proportion)
+    summary["most_prevalent_crime"] = max_crime_type
+    summary["crime_proportion"] = max_proportion
+    
+    return summary

@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-from util import count_amenities_for_house, filter_types_inplace, highest_crime_proportion_for_house
+from util import count_amenities_for_house, filter_types_inplace, crime_summary_for_house
 
 
 current_directory = os.getcwd()
@@ -9,7 +9,7 @@ current_directory = os.getcwd()
 file_path = os.path.join(current_directory, "Google_data", "chicago_restaurants.csv")
 df_restaurants = pd.read_csv(file_path, header=None, on_bad_lines='skip')
 # restaurant data does not have column name when I write csv
-df_restaurants.columns = ["Name", "Business Status", "Address", "Price Level", "Rating", "Total Ratings", "Types", "Latitude", "Longitude"]
+df_restaurants.columns = ["Name", "Business Status", "Address", "City", "Price Level", "Rating", "Total Ratings", "Latitude", "Longitude"]
 df_restaurants['Latitude'] = pd.to_numeric(df_restaurants['Latitude'], errors='coerce')
 df_restaurants['Longitude'] = pd.to_numeric(df_restaurants['Longitude'], errors='coerce')
 
@@ -70,13 +70,14 @@ df_houses['num_crimes_within_1km'] = df_houses.apply(
 lambda row: count_amenities_for_house(row['latitude'], row['longitude'], df_crime, radius_km=1.0),
 axis=1
 )
-df_houses[['most_prevalent_crime', 'crime_proportion']] = df_houses.apply(
-lambda row: pd.Series(highest_crime_proportion_for_house(row['latitude'], row['longitude'], df_crime, radius_km=1.0)),
-axis=1 # the helper function returns a tuple, so need to convert it to series for pandas to allocate into two columns
-)
-print("Houses DataFrame with counts (first 10 rows):")
-print(df_houses[['latitude', 'longitude', 'num_restaurants_within_1km', 'num_stores_within_1km', 'num_schools_within_1km', 'num_crimes_within_1km',
-                    'most_prevalent_crime', 'crime_proportion']].head(10))
 
-output_csv_path = os.path.join(current_directory, "Google_data", "summary_redfin.csv")
+# count crimes for each house
+crime_summary_list = [
+    crime_summary_for_house(row['latitude'], row['longitude'], df_crime, radius_km=1.0)
+    for _, row in df_houses.iterrows()
+]
+crime_summary_df = pd.DataFrame(crime_summary_list).fillna(0)
+df_houses = df_houses.join(crime_summary_df)
+
+output_csv_path = os.path.join(current_directory, "Google_data", "summary_redfin_v2.csv")
 df_houses.to_csv(output_csv_path, index=False)
