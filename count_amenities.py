@@ -1,7 +1,7 @@
 import os
 import pandas as pd
-from util import count_amenities_for_house, filter_types_inplace, \
-crime_summary_for_house, compute_nearby_restaurant_price, impute_house_price_per_sq_ft
+from util import count_nearby, crime_summary, \
+compute_restaurant_stats, impute_house_price_per_sq_ft
 
 
 current_directory = os.getcwd()
@@ -14,24 +14,29 @@ df_restaurants.columns = ["Name", "Business Status", "Address", "City", "Price L
 df_restaurants['Latitude'] = pd.to_numeric(df_restaurants['Latitude'], errors='coerce')
 df_restaurants['Longitude'] = pd.to_numeric(df_restaurants['Longitude'], errors='coerce')
 df_restaurants['Price Level'] = pd.to_numeric(df_restaurants['Price Level'], errors='coerce')
+df_restaurants['Rating'] = pd.to_numeric(df_restaurants['Rating'], errors='coerce')
 
+df_restaurants.drop_duplicates(
+    subset=["Name", "Business Status", "Address", "Price Level", "Rating", "Total Ratings", "Latitude", "Longitude"],
+    inplace=True
+)
 
 # --- Process Convenience/Grocery Store Data ---
-store_filepath = os.path.join(current_directory, "Google_data", "convenience_or_grocery_store_data.csv")
-store_columns = ["Name", "Business Status", "Address", "Price Level", "Rating", "Total Ratings", "Types", "Latitude", "Longitude"]
-df_stores = pd.read_csv(store_filepath, header=None, on_bad_lines='skip')
-df_stores.columns = store_columns
+store_filepath = os.path.join(current_directory, "Google_data", "convenience_store_data.csv")
+df_stores = pd.read_csv(store_filepath, on_bad_lines='skip')
 df_stores['Latitude'] = pd.to_numeric(df_stores['Latitude'], errors='coerce')
 df_stores['Longitude'] = pd.to_numeric(df_stores['Longitude'], errors='coerce')
-# Define allowed types for filtering.
-allowed_store_types = {"supermarket", "grocery_or_supermarket", "drugstore", "convenience_store"}
-# Filter the Types column in place.
-filter_types_inplace(df_stores, allowed_store_types, column="Types")
 # Remove duplicates
 df_stores.drop_duplicates(
     subset=["Name", "Business Status", "Address", "Price Level", "Rating", "Total Ratings", "Latitude", "Longitude"],
     inplace=True
 )
+
+# Define allowed types for filtering.
+#allowed_store_types = {"supermarket", "drugstore", "convenience_store"}
+# Filter the Types column in place.
+#filter_types(df_stores, allowed_store_types, column="Types")
+
 
 
 # --- Process School Data ---
@@ -72,33 +77,37 @@ df_houses['price_per_sq_ft'] = df_houses.apply(
     axis=1
 )
 df_houses['num_restaurants'] = df_houses.apply(
-    lambda row: count_amenities_for_house(row['latitude'], row['longitude'], df_restaurants, radius_km=1.0),
+    lambda row: count_nearby(row['latitude'], row['longitude'], df_restaurants, radius_km=1),
     axis=1
 )
 df_houses['avg_restaurant_price_level'] = df_houses.apply(
-    lambda row: compute_nearby_restaurant_price(row['latitude'], row['longitude'], df_restaurants, radius_km=1.0),
+    lambda row: compute_restaurant_stats(row['latitude'], row['longitude'], df_restaurants, 'Price Level', radius_km=1),
+    axis=1
+)
+df_houses['avg_restaurant_rating'] = df_houses.apply(
+    lambda row: compute_restaurant_stats(row['latitude'], row['longitude'], df_restaurants, 'Rating', radius_km=1),
     axis=1
 )
 df_houses['num_stores'] = df_houses.apply(
-    lambda row: count_amenities_for_house(row['latitude'], row['longitude'], df_stores, radius_km=1.0),
+    lambda row: count_nearby(row['latitude'], row['longitude'], df_stores, radius_km=1),
     axis=1
 )
 df_houses['num_schools'] = df_houses.apply(
-lambda row: count_amenities_for_house(row['latitude'], row['longitude'], df_schools, radius_km=1.0),
+lambda row: count_nearby(row['latitude'], row['longitude'], df_schools, radius_km=1),
 axis=1
 )
 df_houses['num_hospitals'] = df_houses.apply(
-lambda row: count_amenities_for_house(row['latitude'], row['longitude'], df_hospital, radius_km=1.0),
+lambda row: count_nearby(row['latitude'], row['longitude'], df_hospital, radius_km=1),
 axis=1
 )
 df_houses['num_crimes'] = df_houses.apply(
-lambda row: count_amenities_for_house(row['latitude'], row['longitude'], df_crime, radius_km=1.0),
+lambda row: count_nearby(row['latitude'], row['longitude'], df_crime, radius_km=1.0),
 axis=1
 )
 
 # count crimes for each house
 crime_summary_list = [
-    crime_summary_for_house(row['latitude'], row['longitude'], df_crime, radius_km=1.0)
+    crime_summary(row['latitude'], row['longitude'], df_crime, radius_km=1.0)
     for _, row in df_houses.iterrows()
 ]
 crime_summary_df = pd.DataFrame(crime_summary_list).fillna(0)
