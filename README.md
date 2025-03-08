@@ -103,7 +103,7 @@ This repository contains all datasets, scripts, and reports related to our analy
    python Google_data/process_and_combine.py
 4. **Perform statistical analysis & generate visualizations**
    ```bash
-  jupyter notebook visualization_and_stats/stats.ipynb
+   jupyter notebook visualization_and_stats/stats.ipynb
 5. **Run the web scraper for updated Redfin data**
   ```bash
   python redfin_crawler.py
