@@ -150,7 +150,7 @@ These sources collectively enable a detailed statistical analysis of how crime a
 
 ## **Project Presentation Links**
 
-- **[Initial In-Class Presentation](<[(https://docs.google.com/presentation/d/15ZbWyB3VqUQtp61funDqU-i6NCn1aETTXU1ERqfwlF8/edit?usp=sharing)]>)**  
+- **[Initial In-Class Presentation](https://docs.google.com/presentation/d/15ZbWyB3VqUQtp61funDqU-i6NCn1aETTXU1ERqfwlF8/edit?usp=sharing)** 
   Link to the first version of the in-class presentation slides.
 
 - **[Updated Final Presentation](<link needed here>)**  
