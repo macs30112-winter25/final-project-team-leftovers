@@ -105,21 +105,62 @@ This repository contains all datasets, scripts, and reports related to our analy
    ```bash
    jupyter notebook visualization_and_stats/stats.ipynb
 5. **Run the web scraper for updated Redfin data**
-  ```bash
+   ```bash
   python redfin_crawler.py
+  
 
 ---
+
 ## **Data Sources**
+Our project integrates multiple datasets to analyze the relationship between crime, amenities, and housing prices. Below are the data sources used in our analysis:
 
-| **Dataset**                     | **Source**                                                                 | **Description** |
-|----------------------------------|---------------------------------------------------------------------------|----------------|
-| **Redfin Housing Data**         | [Redfin](https://www.redfin.com/)                                         | Contains property listings, prices, square footage, number of bedrooms/bathrooms, and location coordinates. |
-| **Crime Data**                   | [City of Chicago Crime Data](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2) | Includes reported crimes in Chicago from 2001 to present, with geolocation, crime type, and date. |
-| **Restaurants Data**             | [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview) | Provides restaurant locations in Chicago. |
-| **Grocery & Convenience Stores** | [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview) | Provides locations of grocery and convenience stores. |
-| **Hospital Data**                | [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview) | Includes locations of hospitals in Chicago. |
-| **School Data**                  | [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview) | Contains information on school locations in Chicago. |
+### **Real Estate Data**
+- **[Redfin Housing Data](https://www.redfin.com/)**  
+  - Source: Scraped from Redfin using an API.
+  - Description: Contains property listings, prices, square footage, number of bedrooms/bathrooms, and location coordinates.
 
-This table provides a structured view of our data sources, including links where applicable.
+### **Crime Data**
+- **[City of Chicago Crime Data](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2)**  
+  - Source: Chicago Open Data Portal.
+  - Description: Includes reported crimes in Chicago from 2001 to present, with geolocation, crime type, and date.
+
+### **Amenities Data**
+- **[Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview)**  
+  - Source: Google Maps API.
+  - Description: Provides locations of amenities such as grocery stores, hospitals, schools, and restaurants.
+  - Data extracted for:
+    - **chicago_restaurants.csv** (Restaurants)
+    - **convenience_store_data.csv** (Convenience/Grocery Stores)
+    - **hospital_data.csv** (Hospitals)
+    - **school_data.csv** (Schools)
+
+### **Processed and Merged Data**
+- **summary_redfin.csv**  
+  - Description: Final dataset merging Redfin housing data with nearby amenities and crime counts.
+
+These sources collectively enable a detailed statistical analysis of how crime and amenities impact housing prices. 
+
+## **Team Members and Contributions**
+
+| **Name**             | **Contributions** |
+|----------------------|------------------|
+| **Maria Starovoita** | Focused on the organizational aspects of the project, including managing reports, structuring documentation, processing data, and conducting initial statistical analysis and visualizations. |
+| **Andrew Koller**    | Responsible for cleaning and preprocessing the data, collecting and structuring Redfin housing data, and ensuring dataset consistency for analysis. |
+| **Zhenning Liu**     | Led the collection and integration of crime and amenities data, processed spatial joins, and developed methods for quantifying the proximity of amenities and crime incidents to housing locations. |
+
+## **Project Presentation Links**
+
+- **[Initial In-Class Presentation](<[(https://docs.google.com/presentation/d/15ZbWyB3VqUQtp61funDqU-i6NCn1aETTXU1ERqfwlF8/edit?usp=sharing)]>)**  
+  Link to the first version of the in-class presentation slides.
+
+- **[Updated Final Presentation](<link needed here>)**  
+  Link to the revised version of the presentation slides after incorporating feedback.
+
+- **[Final Project Report](<link needed here>)**
+  Link to the final rpoject report, combining the project's goals, research questions, hypothesis, modeling, visualizations, and findings.
+
+- **[Project Video](<link needed here>)**  
+  Link to the project video  
+  *Note: The video is not uploaded directly to the repository due to storage limitations.*
 
 
