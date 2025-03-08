@@ -97,12 +97,15 @@ This repository contains all datasets, scripts, and reports related to our analy
 2. **Install required dependencies**
    ```bash
    pip install -r requirements.txt
-4. **Run data cleaning scripts before analysis**
+3. **Run data cleaning scripts before analysis**
+  ```bash
    python redfin_data/redfin_cleaner.py
    python Google_data/process_and_combine.py
-5. **Perform statistical analysis & generate visualizations**
-   jupyter notebook visualization_and_stats/stats.ipynb
-6. **Run the web scraper for updated Redfin data**
-   python redfin_crawler.py
+4. **Perform statistical analysis & generate visualizations**
+  ```bash
+  jupyter notebook visualization_and_stats/stats.ipynb
+5. **Run the web scraper for updated Redfin data**
+  ```bash
+  python redfin_crawler.py
 
 This version is now fully tailored to **final-project-team-leftovers**, matching your repository structure and ensuring smooth execution. Let me know if you need further refinements!
