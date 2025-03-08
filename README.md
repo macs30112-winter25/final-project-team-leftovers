@@ -1,7 +1,5 @@
 # team_leftovers_project
 
-## Crime, Amenities, and Housing Prices in Chicago
-
 # **Crime, Amenities, and Housing Prices in Chicago**
 
 ## **Overview**
