@@ -106,7 +106,7 @@ This repository contains all datasets, scripts, and reports related to our analy
    jupyter notebook visualization_and_stats/stats.ipynb
 5. **Run the web scraper for updated Redfin data**
    ```bash
-  python redfin_crawler.py
+   python redfin_crawler.py
   
 
 ---
