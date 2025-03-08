@@ -108,4 +108,18 @@ This repository contains all datasets, scripts, and reports related to our analy
   ```bash
   python redfin_crawler.py
 
-This version is now fully tailored to **final-project-team-leftovers**, matching your repository structure and ensuring smooth execution. Let me know if you need further refinements!
+---
+## **Data Sources**
+
+| **Dataset**                     | **Source**                                                                 | **Description** |
+|----------------------------------|---------------------------------------------------------------------------|----------------|
+| **Redfin Housing Data**         | [Redfin](https://www.redfin.com/)                                         | Contains property listings, prices, square footage, number of bedrooms/bathrooms, and location coordinates. |
+| **Crime Data**                   | [City of Chicago Crime Data](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2) | Includes reported crimes in Chicago from 2001 to present, with geolocation, crime type, and date. |
+| **Restaurants Data**             | [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview) | Provides restaurant locations in Chicago. |
+| **Grocery & Convenience Stores** | [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview) | Provides locations of grocery and convenience stores. |
+| **Hospital Data**                | [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview) | Includes locations of hospitals in Chicago. |
+| **School Data**                  | [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview) | Contains information on school locations in Chicago. |
+
+This table provides a structured view of our data sources, including links where applicable.
+
+
