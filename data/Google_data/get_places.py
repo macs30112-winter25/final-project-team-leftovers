@@ -126,13 +126,7 @@ def main():
     """
     Run scrapping
     """
-    #scrape all types if we know all types
-    '''
-    place_types = ["convenient store", "recreation"]
-    for place_type in place_types:
-        scrape(place_type)
-    '''
-    # alternatively, scrape one specific type interactively
+
     place_type = input("Please enter a place type to scrape:")
     scrape(place_type)
     
