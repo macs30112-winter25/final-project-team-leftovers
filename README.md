@@ -98,11 +98,11 @@ This repository contains all datasets, scripts, and reports related to our analy
    ```bash
    pip install -r requirements.txt
 3. **Run data cleaning scripts before analysis**
-  ```bash
+   ```bash
    python redfin_data/redfin_cleaner.py
    python Google_data/process_and_combine.py
 4. **Perform statistical analysis & generate visualizations**
-  ```bash
+   ```bash
   jupyter notebook visualization_and_stats/stats.ipynb
 5. **Run the web scraper for updated Redfin data**
   ```bash
