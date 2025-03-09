@@ -11,12 +11,22 @@ This project explores the relationship between crime rates, amenities (such as g
 - Do amenities offset the negative effects of crime, or does crime diminish the value of nearby amenities?
 - What statistical relationships can we uncover in Chicago’s real estate market?
 
-### **Main Findings**
-- **Crime negatively impacts property values**, with a measurable decrease in price per square foot as crime rates increase.
-- **Amenities generally increase property values**, especially grocery stores, hospitals, and highly rated restaurants.
-- **Interactions between crime and amenities are complex**—while amenities can offset crime’s negative effects, high crime rates still suppress the value boost from amenities.
-- **OLS regression models** show significant correlations between crime, amenities, and housing prices, while visualizations highlight spatial trends.
+### **Main Findings Summary**
 
+- **Crime and Housing Prices:**  
+  The results from the regression analysis show a weak and statistically insignificant relationship between crime counts and property values, indicating that crime may not be a significant factor influencing housing prices by itself, or other neighborhood attributes could be moderating its effects.
+
+- **Impact of Amenities:**  
+  The existence of hospitals and grocery stores indicated a positive and statistically significant relationship with property value. This supports our hypothesis that amenity advantages compel a neighborhood, thus raising demand and prices.
+
+- **Schools and Housing Prices:**  
+  The negative relationship of marginal significance that the number of schools had with property values could indicate that the availability of schools alone does not always mean higher demand unless the consideration of school quality comes into play.
+
+- **Concerns about Multicollinearity:**  
+  Some amenities showed multicollinearity in our preliminary models, most notably between grocery stores and hospitals, which inflated standard errors. This was managed by modifying the model using different specifications with interaction terms and reduced sets of predictors.
+
+- **Model Fit Overall:**  
+  According to the OLS regression, an R-squared of approximately .04 indicates that, while crime and amenities have their effects, other factors-neighborhood characteristics, public services, economic trends-must come in to varying degrees to explain price diveramce.
 ---
 
 ## **Repository Structure**
@@ -118,9 +128,9 @@ Our project integrates multiple datasets to analyze the relationship between cri
   - Description: Contains property listings, prices, square footage, number of bedrooms/bathrooms, and location coordinates.
 
 ### **Crime Data**
-- **[City of Chicago Crime Data](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2)**  
-  - Source: Chicago Open Data Portal.
-  - Description: Includes reported crimes in Chicago from 2001 to present, with geolocation, crime type, and date.
+- **[City of Chicago Crime Data](https://gis.chicagopolice.org/)**  
+  - Source: Chicago Police Department.
+  - Description: Includes reported crimes in Chicago with geolocation, crime type, and date.
 
 ### **Amenities Data**
 - **[Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview)**  
@@ -154,7 +164,7 @@ These sources collectively enable a detailed statistical analysis of how crime a
 - **[Updated Final Presentation](<link needed here>)**  
   Link to the revised version of the presentation slides after incorporating feedback.
 
-- **[Final Project Report](<link needed here>)**
+- **[Final Project Report](https://docs.google.com/document/d/1hTj_KqZCivTHqVHlx3ydViXrW40zoZmMPzagpTn9HYk/edit?usp=sharing)**
   Link to the final rpoject report, combining the project's goals, research questions, hypothesis, modeling, visualizations, and findings.
 
 - **[Project Video](<link needed here>)**  
