@@ -161,7 +161,7 @@ These sources collectively enable a detailed statistical analysis of how crime a
 - **[Initial In-Class Presentation](https://docs.google.com/presentation/d/15ZbWyB3VqUQtp61funDqU-i6NCn1aETTXU1ERqfwlF8/edit?usp=sharing)** 
   Link to the first version of the in-class presentation slides.
 
-- **[Updated Final Presentation](<link needed here>)**  
+- **[Updated Final Presentation](https://docs.google.com/presentation/d/15ZbWyB3VqUQtp61funDqU-i6NCn1aETTXU1ERqfwlF8/edit?usp=sharing)**  
   Link to the revised version of the presentation slides after incorporating feedback.
 
 - **[Final Project Report](https://docs.google.com/document/d/1hTj_KqZCivTHqVHlx3ydViXrW40zoZmMPzagpTn9HYk/edit?usp=sharing)**
