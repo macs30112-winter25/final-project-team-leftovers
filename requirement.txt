@@ -1,0 +1,7 @@
+pandas
+requests
+re
+time
+json
+sqlite3
+datetime
