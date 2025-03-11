@@ -40,25 +40,25 @@ This repository contains all datasets, scripts, and reports related to our analy
 final-project-team-leftovers/
 ├── data/
 │   ├── crime/
-│   │   ├── crime.csv
-│   │   └── get_crime.ipynb
+│   │   ├── crime.csv                      # crime data
+│   │   └── get_crime.ipynb                # notebook for requesting crime data
 │   ├── place_data/
-│   │   ├── chicago_restaurants.csv
-│   │   ├── convenience_store_data.csv
-│   │   ├── get_place.py
-│   │   ├── hospital_data.csv
-│   │   └── school_data.csv
+│   │   ├── chicago_restaurants.csv        # restaurant data
+│   │   ├── convenience_store_data.csv     # convenience store data
+│   │   ├── get_place.py                   # py file for scraping place data from Google
+│   │   ├── hospital_data.csv              # hospital data
+│   │   └── school_data.csv                # school data
 │   ├── redfin_data/
 │   │   ├── [Redfin files...]
-│   │   └── summary_redfin.csv
-│   ├── process_and_combine.py
-│   └── util.py
+│   ├── summary_redfin.csv                 # master dataframe that contains all processed data
+│   ├── process_and_combine.py             # py file for processing raw data and calculate relevant numbers
+│   └── util.py                            # helper functions for process_and_combine.py
 ├── progress_report/
 │   ├── progress_report_1.pdf
 │   └── progress_report_2.pdf
 ├── visualization_and_stats/
-│   ├── stats.ipynb
-│   └── viz.ipynb
+│   ├── stats.ipynb                        # regression analysis
+│   └── viz.ipynb                          # visualization
 ├── requirement.txt
 └── README.md
 ```
