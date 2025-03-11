@@ -36,6 +36,7 @@ This project explores the relationship between crime rates, amenities (such as g
 This repository contains all datasets, scripts, and reports related to our analysis.
 
 ## How to Navigate the Repo
+```bash
 final-project-team-leftovers/
 ├── data/
 │   ├── crime/
@@ -48,8 +49,8 @@ final-project-team-leftovers/
 │   │   ├── hospital_data.csv
 │   │   └── school_data.csv
 │   ├── redfin_data/
-│   │   ├── [Redfin Files]
-│   ├── summary_redfin.csv
+│   │   ├── [Redfin files...]
+│   │   └── summary_redfin.csv
 │   ├── process_and_combine.py
 │   └── util.py
 ├── progress_report/
@@ -59,7 +60,9 @@ final-project-team-leftovers/
 │   ├── stats.ipynb
 │   └── viz.ipynb
 ├── requirement.txt
-└── README.md 
+└── README.md
+```
+
 
 ### Python Files
 - **get_places.py:**  
