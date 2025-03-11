@@ -14,19 +14,19 @@ This project explores the relationship between crime rates, amenities (such as g
 ### **Main Findings Summary**
 
 - **Crime and Housing Prices:**  
-  The results from the regression analysis show a weak and statistically insignificant relationship between crime counts and property values, indicating that crime may not be a significant factor influencing housing prices by itself, or other neighborhood attributes could be moderating its effects.
+  The results from the regression analysis show a negative and statistically significant relationship between crime counts and property values, indicating that crime is significant factor influencing housing prices by itself.
 
 - **Impact of Amenities:**  
-  The existence of hospitals and grocery stores indicated a positive and statistically significant relationship with property value. This supports our hypothesis that amenity advantages compel a neighborhood, thus raising demand and prices.
+  The restaurants (count and ratings), hospitals and grocery stores indicated a positive and statistically significant relationship with property value. This supports our hypothesis that amenity advantages compel a neighborhood, thus raising demand and prices.
 
-- **Schools and Housing Prices:**  
-  The negative relationship of marginal significance that the number of schools had with property values could indicate that the availability of schools alone does not always mean higher demand unless the consideration of school quality comes into play.
+- **Interaction between restaurant and crimes**  
+  There is a significant positve interaction between restaurant and crime, indicating the presence of more restaurants could mitigate the negative effect of crime on property value.
 
 - **Concerns about Multicollinearity:**  
   Some amenities showed multicollinearity in our preliminary models, most notably between grocery stores and hospitals, which inflated standard errors. This was managed by modifying the model using different specifications with interaction terms and reduced sets of predictors.
 
 - **Model Fit Overall:**  
-  According to the OLS regression, an R-squared of approximately .04 indicates that, while crime and amenities have their effects, other factors-neighborhood characteristics, public services, economic trends-must come in to varying degrees to explain price diveramce.
+  According to the OLS regression, an R-squared of approximately .6 indicates that, while crime and amenities have their effects, other factors-neighborhood characteristics, public services, economic trends-must come in to varying degrees to explain price diveramce.
 ---
 
 ## **Repository Structure**
