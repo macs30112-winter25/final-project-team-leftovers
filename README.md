@@ -35,7 +35,31 @@ This project explores the relationship between crime rates, amenities (such as g
 ## **Repository Structure**
 This repository contains all datasets, scripts, and reports related to our analysis.
 
-## Components
+## How to Navigate the Repo
+final-project-team-leftovers/
+├── data/
+│   ├── crime/
+│   │   ├── crime.csv
+│   │   └── get_crime.ipynb
+│   ├── place_data/
+│   │   ├── chicago_restaurants.csv
+│   │   ├── convenience_store_data.csv
+│   │   ├── get_place.py
+│   │   ├── hospital_data.csv
+│   │   └── school_data.csv
+│   ├── redfin_data/
+│   │   ├── [Redfin Files]
+│   ├── summary_redfin.csv
+│   ├── process_and_combine.py
+│   └── util.py
+├── progress_report/
+│   ├── progress_report_1.pdf
+│   └── progress_report_2.pdf
+├── visualization_and_stats/
+│   ├── stats.ipynb
+│   └── viz.ipynb
+├── requirement.txt
+└── README.md 
 
 ### Python Files
 - **get_places.py:**  
