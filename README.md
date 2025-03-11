@@ -32,9 +32,6 @@ This project explores the relationship between crime rates, amenities (such as g
   We have explore a few more models involving violent crimes (vs. total crime) and adding squared term for detecting non-linearity. Please refer to the stats.ipynb for detail finding and comparison.
 ---
 
-## **Repository Structure**
-This repository contains all datasets, scripts, and reports related to our analysis.
-
 ## How to Navigate the Repo
 ```bash
 final-project-team-leftovers/
@@ -59,6 +56,7 @@ final-project-team-leftovers/
 ├── visualization_and_stats/
 │   ├── stats.ipynb                        # regression analysis
 │   └── viz.ipynb                          # visualization
+├── LICENSE
 ├── requirement.txt
 └── README.md
 ```
