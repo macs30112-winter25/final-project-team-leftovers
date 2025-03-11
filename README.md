@@ -25,10 +25,10 @@ This project explores the relationship between crime rates, amenities (such as g
 - **Concerns about Multicollinearity:**  
   Some amenities showed multicollinearity in our preliminary models, most notably between grocery stores and hospitals, which inflated standard errors. This was managed by modifying the model using different specifications with interaction terms and reduced sets of predictors.
 
-- **Model Fit Overall:**  
+- **Model Fit Overall:** <br>
   According to the OLS regression, an R-squared of approximately .6 indicates that, while crime and amenities have their effects, other factors-neighborhood characteristics, public services, economic trends-must come in to varying degrees to explain price diveramce.
 
-- **Additional Exploration after Presentation**
+- **Additional Exploration after Presentation:** <br>
   We have explore a few more models involving violent crimes (vs. total crime) and adding squared term for detecting non-linearity. Please refer to the stats.ipynb for detail finding and comparison.
 ---
 
