@@ -1,10 +1,10 @@
 pandas==2.2.3
 numpy==1.26.2
-requests
-re
+requests==2.32.2
+re==2024.11.6
 time
 json
-sqlite3
+sqlite3==3.45.3
 datetime
 statsmodels==0.14.4
 seaborn==0.13.2
