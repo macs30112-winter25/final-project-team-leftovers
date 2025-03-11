@@ -1,3 +1,12 @@
+# Author: Zhenning Liu
+# This file initialize grid search to search and scrapes 
+# places data in Chicago using Google Place API
+
+# Resource:
+        # 1) https://developers.google.com/maps/documentation/places/web-service/nearby-search
+        # 2) https://stackoverflow.com/questions/7370801/how-do-i-measure-elapsed-time-in-python
+
+
 import requests
 import time
 import random
@@ -89,10 +98,10 @@ def scrape(place_type):
     # File path for the output CSV
     places_output_file = os.path.join(output_dir, f"{place_type}_data.csv")
     object_output_file = os.path.join(output_dir, f"{place_type}_data.json")
+
     header = ["Name", "Business Status", "Address", "Price Level", "Rating", "Total Ratings", "Types", "Latitude", "Longitude"]
 
     all_objects = []
-
     
     with open(places_output_file, "w", encoding="utf-8", newline='') as f:
         writer = csv.writer(f)

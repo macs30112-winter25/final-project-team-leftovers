@@ -1,3 +1,10 @@
+# Author: Zhenning Liu
+# This file is to process, calculate, summarize, and combine information
+# from various sources into a master dataframe for later analysis
+
+# Resource:
+    # 1) https://stackoverflow.com/questions/33440805/pandas-dataframe-read-csv-on-bad-data
+
 import os
 import pandas as pd
 from util import (
@@ -7,7 +14,7 @@ from util import (
     impute_house_price_per_sq_ft
 )
 
-def load_and_clean_csv(filepath, header='infer', columns=None, drop_duplicates_cols=None):
+def load_and_clean_csv(filepath, header='infer', columns=None, drop_duplicate=False):
     """
     Reads a CSV file, assigning column names if header is missing.
     
@@ -33,9 +40,12 @@ def load_and_clean_csv(filepath, header='infer', columns=None, drop_duplicates_c
         if col in df.columns:
             df[col] = pd.to_numeric(df[col], errors='coerce')
     # Drop duplicates
-    if drop_duplicates_cols:
-        df = df.drop_duplicates(subset=drop_duplicates_cols)
-    
+    if drop_duplicate:
+        df = df.drop_duplicates(
+            subset=["Name", "Business Status", "Address", "Price Level", 
+                    "Rating", "Total Ratings", "Latitude", "Longitude"]
+            )
+
     return df
 
 def process_data():
@@ -48,6 +58,7 @@ def process_data():
     
     # Define data directories
     google_data_dir = os.path.join(current_directory, "Google_data")
+    crime_data_dir = os.path.join(current_directory, "crime")
     redfin_data_dir = os.path.join(current_directory, "redfin_data")
 
     # --- Load Input CSVs Scraped from get_places.py ---
@@ -55,35 +66,25 @@ def process_data():
     restaurants_file = os.path.join(google_data_dir, "chicago_restaurants.csv")
     df_restaurants = load_and_clean_csv(
         restaurants_file, header=None,
-        columns=["Name", "Business Status", "Address", "City", "Price Level", "Rating", "Total Ratings", "Latitude", "Longitude"],
-        drop_duplicates_cols=["Name", "Business Status", "Address", "Price Level", "Rating", "Total Ratings", "Latitude", "Longitude"]
+        columns=["Name", "Business Status", "Address", "City", 
+                 "Price Level", "Rating", "Total Ratings", "Latitude", "Longitude"],
+        drop_duplicate=True
     )
     
     # Convenience / Grocery Stores
     stores_file = os.path.join(google_data_dir, "convenience_store_data.csv")
-    df_stores = pd.read_csv(stores_file, on_bad_lines='skip')
-    print(df_stores.columns)
-    df_stores = load_and_clean_csv(
-        stores_file,
-        drop_duplicates_cols=["Name", "Business Status", "Address", "Price Level", "Rating", "Total Ratings", "Latitude", "Longitude"]
-    )
+    df_stores = load_and_clean_csv(stores_file, drop_duplicate=True)
     
     # Schools
     schools_file = os.path.join(google_data_dir, "school_data.csv")
-    df_schools = load_and_clean_csv(
-        schools_file,
-        drop_duplicates_cols=["Name", "Business Status", "Address", "Price Level", "Rating", "Total Ratings", "Latitude", "Longitude"]
-    )
+    df_schools = load_and_clean_csv(schools_file, drop_duplicate=True)
     
     # Hospitals
     hospital_file = os.path.join(google_data_dir, "hospital_data.csv")
-    df_hospital = load_and_clean_csv(
-        hospital_file,
-        drop_duplicates_cols=["Name", "Business Status", "Address", "Price Level", "Rating", "Total Ratings", "Latitude", "Longitude"]
-    )
+    df_hospital = load_and_clean_csv(hospital_file, drop_duplicate=True)
     
     # Crime Data
-    crime_file = os.path.join(google_data_dir, "crime.csv")
+    crime_file = os.path.join(crime_data_dir, "crime.csv")
     df_crime = load_and_clean_csv(crime_file)
     
     # --- Load Housing Data from Redfin) ---
@@ -96,27 +97,27 @@ def process_data():
         axis=1
     )
     df_houses['num_restaurants'] = df_houses.apply(
-        lambda row: count_nearby(row['latitude'], row['longitude'], df_restaurants, radius_km=1),
+        lambda row: count_nearby(row['latitude'], row['longitude'], df_restaurants, radius_km=1.0),
         axis=1
     )
     df_houses['avg_restaurant_price_level'] = df_houses.apply(
-        lambda row: compute_restaurant_stats(row['latitude'], row['longitude'], df_restaurants, 'Price Level', radius_km=1),
+        lambda row: compute_restaurant_stats(row['latitude'], row['longitude'], df_restaurants, 'Price Level', radius_km=1.0),
         axis=1
     )
     df_houses['avg_restaurant_rating'] = df_houses.apply(
-        lambda row: compute_restaurant_stats(row['latitude'], row['longitude'], df_restaurants, 'Rating', radius_km=1),
+        lambda row: compute_restaurant_stats(row['latitude'], row['longitude'], df_restaurants, 'Rating', radius_km=1.0),
         axis=1
     )
     df_houses['num_stores'] = df_houses.apply(
-        lambda row: count_nearby(row['latitude'], row['longitude'], df_stores, radius_km=1),
+        lambda row: count_nearby(row['latitude'], row['longitude'], df_stores, radius_km=1.0),
         axis=1
     )
     df_houses['num_schools'] = df_houses.apply(
-        lambda row: count_nearby(row['latitude'], row['longitude'], df_schools, radius_km=1),
+        lambda row: count_nearby(row['latitude'], row['longitude'], df_schools, radius_km=1.0),
         axis=1
     )
     df_houses['num_hospitals'] = df_houses.apply(
-        lambda row: count_nearby(row['latitude'], row['longitude'], df_hospital, radius_km=1),
+        lambda row: count_nearby(row['latitude'], row['longitude'], df_hospital, radius_km=1.0),
         axis=1
     )
     df_houses['num_crimes'] = df_houses.apply(
@@ -136,7 +137,7 @@ def process_data():
 
 def save_output(df_master):
     current_directory = os.getcwd()
-    output_csv_path = os.path.join(current_directory, "Google_data", "summary_redfin.csv")
+    output_csv_path = os.path.join(current_directory, "Google_data", "testing.csv")
     df_master.to_csv(output_csv_path, index=False)
     print(f"Master DataFrame saved to {output_csv_path}")
 

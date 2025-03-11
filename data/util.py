@@ -1,3 +1,11 @@
+# Author: Zhenning Liu
+# This file contains the helper functions to calculate number
+# of nearby amenities and other key statistics
+
+# Consulted Source: 
+    # 1) 'https://stackoverflow.com/questions/1894269/how-to-convert-string-representation-of-list-to-a-list'
+    # 2) util.py for PA2
+
 import numpy as np
 import pandas as pd
 import ast
@@ -197,6 +205,8 @@ def impute_house_price_per_sq_ft(house_row, houses_df, radius_km=1.0):
         return nearby_valid['price_per_sq_ft'].mean()
 
 
+# ------------- below is used in current project but could be useful in future ------------
+
 def clean_and_filter(types_list, allowed_types):
     """
     Clean a list of type strings by stripping whitespace, converting to lowercase,
@@ -242,5 +252,3 @@ def filter_types(df, allowed_types, column="Types"):
     df[column] = df[column].apply(parse_types)
     # Clean and filter the list of types for each row.
     df[column] = df[column].apply(lambda x: clean_and_filter(x, allowed_types))
-    # Drop rows where the cleaned types list is empty.
-    df.drop(df[df[column].apply(lambda x: len(x) == 0)].index, inplace=True)
