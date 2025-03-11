@@ -57,8 +57,8 @@ def process_data():
     current_directory = os.getcwd()
     
     # Define data directories
-    google_data_dir = os.path.join(current_directory, "Google_data")
-    crime_data_dir = os.path.join(current_directory, "crime")
+    google_data_dir = os.path.join(current_directory, "place_data")
+    crime_data_dir = os.path.join(current_directory, "crime_data")
     redfin_data_dir = os.path.join(current_directory, "redfin_data")
 
     # --- Load Input CSVs Scraped from get_places.py ---
@@ -137,7 +137,7 @@ def process_data():
 
 def save_output(df_master):
     current_directory = os.getcwd()
-    output_csv_path = os.path.join(current_directory, "Google_data", "testing.csv")
+    output_csv_path = os.path.join(current_directory, "Google_data", "summary_redfin.csv")
     df_master.to_csv(output_csv_path, index=False)
     print(f"Master DataFrame saved to {output_csv_path}")
 
