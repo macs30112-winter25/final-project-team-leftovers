@@ -137,4 +137,5 @@ These sources collectively enable a detailed statistical analysis of how crime a
   Link to the project video  
   *Note: The video is not uploaded directly to the repository due to storage limitations.*
 
-
+## **AI Usage** ##
+- This project utilized AI primarily to debug code and interpret error messages. **Markdowner** is technically AI software, however, as it utilizes AI to turn webpage HTML into Markdown. Consequently, AI was utilized to scrape Redfin data. 
