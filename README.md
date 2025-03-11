@@ -184,14 +184,14 @@ These sources collectively enable a detailed statistical analysis of how crime a
 |----------------------|------------------|
 | **Marija Starovoita** | Focused on the organizational aspects of the project, including managing reports, structuring documentation, processing data, and conducting initial statistical analysis and visualizations. |
 | **Andrew Koller**    | Responsible for cleaning and preprocessing the data, collecting and structuring Redfin housing data, and ensuring dataset consistency for analysis. |
-| **Zhenning Liu**     | Led the collection and integration of crime and amenities data, processed spatial joins, and developed methods for quantifying the proximity of amenities and crime incidents to housing locations. |
+| **Zhenning Liu**     | Scrape, clean, and process Google place data; compute required statistics and combine all data into one source; Further visualization; Clean summary data and finalize statistical analysis |
 
 ## **Project Presentation Links**
 
 - **[Initial In-Class Presentation](https://docs.google.com/presentation/d/15ZbWyB3VqUQtp61funDqU-i6NCn1aETTXU1ERqfwlF8/edit?usp=sharing)** 
   Link to the first version of the in-class presentation slides.
 
-- **[Updated Final Presentation](https://docs.google.com/presentation/d/15ZbWyB3VqUQtp61funDqU-i6NCn1aETTXU1ERqfwlF8/edit?usp=sharing)**  
+- **[Updated Final Presentation](https://docs.google.com/presentation/d/1t65F_TXEYmy9V7WwxHWSRnGGe8f_7pgWltalqUqxLZs/edit?usp=sharing)**
   Link to the revised version of the presentation slides after incorporating feedback.
 
 - **[Final Project Report](https://docs.google.com/document/d/1hTj_KqZCivTHqVHlx3ydViXrW40zoZmMPzagpTn9HYk/edit?usp=sharing)**
