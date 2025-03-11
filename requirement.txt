@@ -1,7 +1,15 @@
-pandas
+pandas==2.2.3
+numpy==1.26.2
 requests
 re
 time
 json
 sqlite3
 datetime
+statsmodels==0.14.4
+seaborn==0.13.2
+folium==0.19.5
+matplotlib==3.10.1
+plotly==6.0.0
+nbformat==5.10.4
+ipywidgets==8.1.5
