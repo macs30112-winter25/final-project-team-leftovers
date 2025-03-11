@@ -19,7 +19,7 @@ This project explores the relationship between crime rates, amenities (such as g
 - **Impact of Amenities:**  
   The restaurants (count and ratings), hospitals and grocery stores indicated a positive and statistically significant relationship with property value. This supports our hypothesis that amenity advantages compel a neighborhood, thus raising demand and prices.
 
-- **Interaction between restaurant and crimes**  
+- **Interaction between Restaurant and Crimes**  
   There is a significant positve interaction between restaurant and crime, indicating the presence of more restaurants could mitigate the negative effect of crime on property value.
 
 - **Concerns about Multicollinearity:**  
@@ -27,6 +27,9 @@ This project explores the relationship between crime rates, amenities (such as g
 
 - **Model Fit Overall:**  
   According to the OLS regression, an R-squared of approximately .6 indicates that, while crime and amenities have their effects, other factors-neighborhood characteristics, public services, economic trends-must come in to varying degrees to explain price diveramce.
+
+- **Additional Exploration after Presentation**
+  We have explore a few more models involving violent crimes (vs. total crime) and adding squared term for detecting non-linearity. Please refer to the stats.ipynb for detail finding and comparison.
 ---
 
 ## **Repository Structure**
