@@ -140,7 +140,7 @@ These sources collectively enable a detailed statistical analysis of how crime a
 - **[Final Project Report](https://docs.google.com/document/d/1hTj_KqZCivTHqVHlx3ydViXrW40zoZmMPzagpTn9HYk/edit?usp=sharing)**
   Link to the final rpoject report, combining the project's goals, research questions, hypothesis, modeling, visualizations, and findings.
 
-- **[Project Video](<link needed here>)**  
+- **[Project Video](https://drive.google.com/file/d/11yHPi9QYkCHqBfrKTc-kGjW6z6BgIJx4/view?usp=sharing)**  
   Link to the project video  
   *Note: The video is not uploaded directly to the repository due to storage limitations.*
 
