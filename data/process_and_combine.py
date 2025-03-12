@@ -137,7 +137,7 @@ def process_data():
 
 def save_output(df_master):
     current_directory = os.getcwd()
-    output_csv_path = os.path.join(current_directory, "Google_data", "summary_redfin.csv")
+    output_csv_path = os.path.join(current_directory, "summary_redfin.csv")
     df_master.to_csv(output_csv_path, index=False)
     print(f"Master DataFrame saved to {output_csv_path}")
 
