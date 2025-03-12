@@ -46,7 +46,14 @@ final-project-team-leftovers/
 │   │   ├── hospital_data.csv              # hospital data
 │   │   └── school_data.csv                # school data
 │   ├── redfin_data/
-│   │   ├── [Redfin files...]
+│   │   ├── urls/
+│   │   │   ├── processed/                 # contains all the url for redfin listings
+│   │   ├── redfin_cleaned_v1.csv          # redfin data version 1
+│   │   ├── redfin_cleaned_v2.csv          # redfin data version 2
+│   │   ├── redfin_cleaner_v1.ipynb        # notebook for cleaning redfin version 1
+│   │   ├── redfin_cleaner_v2.ipynb        # notebook for cleaning redfin version 2
+│   │   ├── redfin_crawler.py              # crawl redfin data
+│   │   ├── redfin_sql_db_link.txt         # google drive link that stores sql database for redfin data
 │   ├── summary_redfin.csv                 # master dataframe that contains all processed data
 │   ├── process_and_combine.py             # py file for processing raw data and calculate relevant numbers
 │   └── util.py                            # helper functions for process_and_combine.py
