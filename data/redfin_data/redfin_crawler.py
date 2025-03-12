@@ -75,6 +75,20 @@ def init_database(db_path):
     conn.close()
 
 
+def extract_redfin_urls(content):
+    """
+    Extract Redfin URLs from markdown content.
+    
+    Args:
+        content (str): Markdown content
+
+    Returns:
+        list: A list of Redfin URLs.
+    """
+    pattern = r'\((/IL/Chicago/.*?/home/\d+)'
+    return ['https://redfin.com' + path for path in re.findall(pattern, content)]
+
+
 def scrape_zipcode(zipcode):
     """
     For a given ZIP, fetch pages until we detect a redirect or find all listings.
@@ -167,20 +181,6 @@ def scrape_zipcode(zipcode):
     
     print(f"\nFound {len(all_urls)} total unique URLs in {zipcode}")
     return urls_file, list(all_urls)
-
-
-def extract_redfin_urls(content):
-    """
-    Extract Redfin URLs from markdown content.
-    
-    Args:
-        content (str): Markdown content
-
-    Returns:
-        list: A list of Redfin URLs.
-    """
-    pattern = r'\((/IL/Chicago/.*?/home/\d+)'
-    return ['https://redfin.com' + path for path in re.findall(pattern, content)]
 
 
 def process_property_urls(api_key, input_file, db_path='redfin_properties.db'):
@@ -332,7 +332,7 @@ def main():
             processed = process_property_urls(api_key, urls_file)
             total_processed += processed
             
-            # Optionally move processed file to a 'processed' directory
+            # Move processed file to a 'processed' directory
             try:
                 os.rename(urls_file, f"urls/processed/{urls_file}")
                 print(f"Moved {urls_file} to processed directory")
